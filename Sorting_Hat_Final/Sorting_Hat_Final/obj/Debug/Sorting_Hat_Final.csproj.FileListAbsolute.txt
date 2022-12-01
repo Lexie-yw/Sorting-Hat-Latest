@@ -1,0 +1,11 @@
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\bin\Debug\Sorting_Hat_Final.exe.config
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\bin\Debug\Sorting_Hat_Final.exe
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\bin\Debug\Sorting_Hat_Final.pdb
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\Sorting_Hat_Final.csproj.AssemblyReference.cache
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\Sorting_Hat_Final.csproj.SuggestedBindingRedirects.cache
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\Sorting_Hat_Final.Form1.resources
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\Sorting_Hat_Final.Properties.Resources.resources
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\Sorting_Hat_Final.csproj.GenerateResource.cache
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\Sorting_Hat_Final.csproj.CoreCompileInputs.cache
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\Sorting_Hat_Final.exe
+C:\Users\lexie\source\repos\I18n\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\Sorting_Hat_Final.pdb
