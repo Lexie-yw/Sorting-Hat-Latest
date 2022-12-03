@@ -24,11 +24,6 @@ namespace Sorting_Hat_Final
         int slytherin;
         int ravenclaw;
 
-        string houseNameGryffindor;
-        string houseNameHufflepuff;
-        string houseNameSlytherin;
-        string houseNameRavenclaw;
-
         int questionNum = 1;
         int totalQuestions;
         string[] house = new string[5];
@@ -99,7 +94,7 @@ namespace Sorting_Hat_Final
             {
                 house[questionNum - 1] = rm.GetString("houseNameHufflepuff");
             }
-            else {
+            else { 
                 house[questionNum - 1] = rm.GetString("houseNameSlytherin");
             }
 
@@ -109,10 +104,8 @@ namespace Sorting_Hat_Final
 
                 //work on the offer:
                 string cTime = DateTime.Now.ToString("T", CultureInfo.CurrentCulture);
-                string enrollmentMessageDate;
-                string enrollmentCongrats;
                 string replay;
-                MessageBox.Show((rm.GetString("enrollmentMessageDate") + cTime) + Environment.NewLine + (rm.GetString("enrollmantCongrats")) + result + Environment.NewLine + rm.GetString("enrollmentGreeting") + Environment.NewLine + rm.GetString("signature"));
+                MessageBox.Show(rm.GetString("enrollmentDateIntro") + cTime + Environment.NewLine + rm.GetString("enrollmentCongrats") + result + Environment.NewLine + rm.GetString("enrollmentGreeting") + Environment.NewLine + rm.GetString("signature"));
              
                     
 
@@ -146,11 +139,11 @@ namespace Sorting_Hat_Final
 
                 case 2:
                     pictureBox1.Image = Properties.Resources.Hogwarts;
-                    shQuestion.Text = "Choose one place to live from below options: ";
-                    button1.Text = "Castle";
-                    button2.Text = "Tower";
-                    button3.Text = "Basement";
-                    button4.Text = "Under Lake";
+                    shQuestion.Text = rm.GetString("placeQ");
+                    button1.Text = rm.GetString("placeA1");
+                    button2.Text = rm.GetString("placeA2");
+                    button3.Text = rm.GetString("placeA3");
+                    button4.Text = rm.GetString("placeA4");
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -161,11 +154,11 @@ namespace Sorting_Hat_Final
 
                 case 3:
                     pictureBox1.Image = Properties.Resources.Friend;
-                    shQuestion.Text = "Choose one of the animal as your friend: ";
-                    button1.Text = "Lion";
-                    button2.Text = "Eagle";
-                    button3.Text = "Badger";
-                    button4.Text = "Snake";
+                    shQuestion.Text = rm.GetString("animalQ");
+                    button1.Text = rm.GetString("animalA1");
+                    button2.Text = rm.GetString("animalA2");
+                    button3.Text = rm.GetString("animalA3");
+                    button4.Text = rm.GetString("animalA4");
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -176,11 +169,11 @@ namespace Sorting_Hat_Final
 
                 case 4:
                     pictureBox1.Image = Properties.Resources.Class;
-                    shQuestion.Text = "Select one of the courses from below as your first semester's core course: ";
-                    button1.Text = "Defence Against the Dark Arts";
-                    button2.Text = "Charms";
-                    button3.Text = "Care of Magic Creatures";
-                    button4.Text = "Dark Arts";
+                    shQuestion.Text = rm.GetString("courseQ");
+                    button1.Text = rm.GetString("courseA1");
+                    button2.Text = rm.GetString("courseA2");
+                    button3.Text = rm.GetString("courseA3");
+                    button4.Text = rm.GetString("courseA4");
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -191,11 +184,11 @@ namespace Sorting_Hat_Final
 
                 case 5:
                     pictureBox1.Image = Properties.Resources.Personality;
-                    shQuestion.Text = "What's the quality that you value the most: ";
-                    button1.Text = "Courage";
-                    button2.Text = "Wisdom";
-                    button3.Text = "Loyalty";
-                    button4.Text = "Ambition";
+                    shQuestion.Text = rm.GetString("qualityQ");
+                    button1.Text = rm.GetString("qualityA1");
+                    button2.Text = rm.GetString("qualityA2");
+                    button3.Text = rm.GetString("qualityA3");
+                    button4.Text = rm.GetString("qualityA4");
 
                     gryffindor = 1;
                     ravenclaw = 2;

@@ -38,3 +38,6 @@ C:\Users\maudg\Source\Repos\maudgrasmenil\Sorting-Hat\Sorting_Hat_Final\Sorting_
 C:\Users\maudg\Source\Repos\maudgrasmenil\Sorting-Hat\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\it-IT\Sorting_Hat_Final.resources.dll
 C:\Users\maudg\Source\Repos\maudgrasmenil\Sorting-Hat\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\ja-JP\Sorting_Hat_Final.resources.dll
 C:\Users\maudg\Source\Repos\maudgrasmenil\Sorting-Hat\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\zh-Hans\Sorting_Hat_Final.resources.dll
+C:\Users\maudg\Source\Repos\maudgrasmenil\Sorting-Hat\Sorting_Hat_Final\Sorting_Hat_Final\bin\Debug\en-US\Sorting_Hat_Final.resources.dll
+C:\Users\maudg\Source\Repos\maudgrasmenil\Sorting-Hat\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\Sorting_Hat_Final.Form1.en-US.resources
+C:\Users\maudg\Source\Repos\maudgrasmenil\Sorting-Hat\Sorting_Hat_Final\Sorting_Hat_Final\obj\Debug\en-US\Sorting_Hat_Final.resources.dll

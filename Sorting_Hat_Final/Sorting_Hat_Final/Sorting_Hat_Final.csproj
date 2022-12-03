@@ -57,6 +57,9 @@
     <EmbeddedResource Include="Form1.de-DE.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en-US.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.es-x-int-SDL.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
