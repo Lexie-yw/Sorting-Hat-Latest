@@ -28,85 +28,105 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1 = new System.Windows.Forms.Button();
             this.shQuestion = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.btnPlay = new System.Windows.Forms.Button();
+            this.btnStop = new System.Windows.Forms.Button();
+            this.langSelecBox = new System.Windows.Forms.ComboBox();
+            this.langSelecLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Sorting_Hat_Final.Properties.Resources.Color;
-            this.pictureBox1.Location = new System.Drawing.Point(94, 81);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1392, 659);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(94, 855);
+            resources.ApplyResources(this.button1, "button1");
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(569, 127);
-            this.button1.TabIndex = 1;
             this.button1.Tag = "1";
-            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.checkAnswerEvent);
             // 
             // shQuestion
             // 
-            this.shQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shQuestion.Location = new System.Drawing.Point(122, 743);
+            resources.ApplyResources(this.shQuestion, "shQuestion");
             this.shQuestion.Name = "shQuestion";
-            this.shQuestion.Size = new System.Drawing.Size(1335, 81);
-            this.shQuestion.TabIndex = 2;
-            this.shQuestion.Text = "Question";
-            this.shQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(917, 855);
+            resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(569, 127);
-            this.button2.TabIndex = 3;
             this.button2.Tag = "2";
-            this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.checkAnswerEvent);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(94, 1028);
+            resources.ApplyResources(this.button3, "button3");
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(569, 127);
-            this.button3.TabIndex = 4;
             this.button3.Tag = "3";
-            this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.checkAnswerEvent);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(917, 1018);
+            resources.ApplyResources(this.button4, "button4");
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(569, 127);
-            this.button4.TabIndex = 5;
             this.button4.Tag = "4";
-            this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.checkAnswerEvent);
             // 
+            // btnPlay
+            // 
+            resources.ApplyResources(this.btnPlay, "btnPlay");
+            this.btnPlay.Name = "btnPlay";
+            this.btnPlay.UseVisualStyleBackColor = true;
+            // 
+            // btnStop
+            // 
+            resources.ApplyResources(this.btnStop, "btnStop");
+            this.btnStop.Name = "btnStop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            // 
+            // langSelecBox
+            // 
+            resources.ApplyResources(this.langSelecBox, "langSelecBox");
+            this.langSelecBox.FormattingEnabled = true;
+            this.langSelecBox.Items.AddRange(new object[] {
+            resources.GetString("langSelecBox.Items"),
+            resources.GetString("langSelecBox.Items1"),
+            resources.GetString("langSelecBox.Items2"),
+            resources.GetString("langSelecBox.Items3"),
+            resources.GetString("langSelecBox.Items4"),
+            resources.GetString("langSelecBox.Items5"),
+            resources.GetString("langSelecBox.Items6")});
+            this.langSelecBox.Name = "langSelecBox";
+            this.langSelecBox.Sorted = true;
+            // 
+            // langSelecLabel
+            // 
+            resources.ApplyResources(this.langSelecLabel, "langSelecLabel");
+            this.langSelecLabel.Name = "langSelecLabel";
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::Sorting_Hat_Final.Properties.Resources.Color;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2323, 1265);
+            this.Controls.Add(this.langSelecLabel);
+            this.Controls.Add(this.langSelecBox);
+            this.Controls.Add(this.btnStop);
+            this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -114,10 +134,10 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
-            this.Text = "Sorting_Hat";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -129,6 +149,10 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnPlay;
+        private System.Windows.Forms.Button btnStop;
+        private System.Windows.Forms.ComboBox langSelecBox;
+        private System.Windows.Forms.Label langSelecLabel;
     }
 }
 

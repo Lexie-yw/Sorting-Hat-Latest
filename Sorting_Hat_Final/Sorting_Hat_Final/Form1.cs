@@ -14,8 +14,8 @@ namespace Sorting_Hat_Final
 {
     public partial class Form1 : Form
     {
-        //Sort Hat Variables: Hogwarts, Gryffindor, Slytherin, Ravenclaw and Hufflepuffs.
-        int hufflepuffs;
+        //Sort Hat Variables: Hogwarts, Gryffindor, Slytherin, Ravenclaw and Hufflepuff.
+        int hufflepuff;
         int gryffindor;
         int slytherin;
         int ravenclaw;
@@ -77,9 +77,9 @@ namespace Sorting_Hat_Final
             {
                 house[questionNum - 1] = "Ravenclaw";
             }
-            else if (buttonTag == hufflepuffs)
+            else if (buttonTag == hufflepuff)
             {
-                house[questionNum - 1] = "Hufflepuffs";
+                house[questionNum - 1] = "Hufflepuff";
             }
             else {
                 house[questionNum - 1] = "Slytherin";
@@ -119,7 +119,7 @@ namespace Sorting_Hat_Final
 
                     gryffindor = 1;
                     ravenclaw = 2;
-                    hufflepuffs = 3;
+                    hufflepuff = 3;
                     slytherin = 4;
 
                     break;
@@ -134,7 +134,7 @@ namespace Sorting_Hat_Final
 
                     gryffindor = 1;
                     ravenclaw = 2;
-                    hufflepuffs = 3;
+                    hufflepuff = 3;
                     slytherin = 4;
 
                     break;
@@ -149,7 +149,7 @@ namespace Sorting_Hat_Final
 
                     gryffindor = 1;
                     ravenclaw = 2;
-                    hufflepuffs = 3;
+                    hufflepuff = 3;
                     slytherin = 4;
 
                     break;
@@ -164,7 +164,7 @@ namespace Sorting_Hat_Final
 
                     gryffindor = 1;
                     ravenclaw = 2;
-                    hufflepuffs = 3;
+                    hufflepuff = 3;
                     slytherin = 4;
 
                     break;
@@ -179,7 +179,7 @@ namespace Sorting_Hat_Final
 
                     gryffindor = 1;
                     ravenclaw = 2;
-                    hufflepuffs = 3;
+                    hufflepuff = 3;
                     slytherin = 4;
 
                     break;
@@ -193,6 +193,11 @@ namespace Sorting_Hat_Final
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
