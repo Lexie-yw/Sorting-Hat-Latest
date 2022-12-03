@@ -158,4 +158,103 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Choixpeau magique</value>
   </data>
+  <data name="animalA1" xml:space="preserve">
+    <value>Lion</value>
+  </data>
+  <data name="animalA2" xml:space="preserve">
+    <value>Aigle</value>
+  </data>
+  <data name="animalA3" xml:space="preserve">
+    <value>Blaireau</value>
+  </data>
+  <data name="animalA4" xml:space="preserve">
+    <value>Serpent</value>
+  </data>
+  <data name="animalQ" xml:space="preserve">
+    <value>Quel animal choisis-tu pour compagnon ?</value>
+  </data>
+  <data name="colorA1" xml:space="preserve">
+    <value>Rouge</value>
+  </data>
+  <data name="colorA2" xml:space="preserve">
+    <value>Bleu</value>
+  </data>
+  <data name="colorA3" xml:space="preserve">
+    <value>Jaune</value>
+  </data>
+  <data name="colorA4" xml:space="preserve">
+    <value>Vert</value>
+  </data>
+  <data name="colorQ" xml:space="preserve">
+    <value>Quelle est ta couleur porte-bonheur ?</value>
+  </data>
+  <data name="courseA1" xml:space="preserve">
+    <value>Défense contre les forces du Mal</value>
+  </data>
+  <data name="courseA2" xml:space="preserve">
+    <value>Sortilèges</value>
+  </data>
+  <data name="courseA3" xml:space="preserve">
+    <value>Soins aux créatures magiques</value>
+  </data>
+  <data name="courseA4" xml:space="preserve">
+    <value>Potions</value>
+  </data>
+  <data name="courseQ" xml:space="preserve">
+    <value>Quel cours principal choisis-tu au premier semestre ?</value>
+  </data>
+  <data name="enrollmentCongrats" xml:space="preserve">
+    <value>Félicitations ! Tu es maintenant un·e étudiant·e de </value>
+  </data>
+  <data name="enrollmentDateIntro" xml:space="preserve">
+    <value>Date d'inscription : </value>
+  </data>
+  <data name="enrollmentGreeting" xml:space="preserve">
+    <value>Avec nos salutations distinguées, </value>
+  </data>
+  <data name="houseNameGryffindor" xml:space="preserve">
+    <value>Gryffondor</value>
+  </data>
+  <data name="houseNameHufflePuff" xml:space="preserve">
+    <value>Poufsouffle</value>
+  </data>
+  <data name="houseNameRavenclaw" xml:space="preserve">
+    <value>Serdaigle</value>
+  </data>
+  <data name="houseNameSlytherin" xml:space="preserve">
+    <value>Serpentard</value>
+  </data>
+  <data name="placeA1" xml:space="preserve">
+    <value>Château</value>
+  </data>
+  <data name="placeA2" xml:space="preserve">
+    <value>Tour</value>
+  </data>
+  <data name="placeA3" xml:space="preserve">
+    <value>Sous un lac</value>
+  </data>
+  <data name="placeA4" xml:space="preserve">
+    <value>Sous-sol</value>
+  </data>
+  <data name="placeQ" xml:space="preserve">
+    <value>Où souhaites-tu résider ?</value>
+  </data>
+  <data name="qualityA1" xml:space="preserve">
+    <value>Courage</value>
+  </data>
+  <data name="qualityA2" xml:space="preserve">
+    <value>Sagesse</value>
+  </data>
+  <data name="qualityA3" xml:space="preserve">
+    <value>Loyauté</value>
+  </data>
+  <data name="qualityA4" xml:space="preserve">
+    <value>Ambition</value>
+  </data>
+  <data name="qualityQ" xml:space="preserve">
+    <value>Quelle qualité t'est la plus chère ?</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>Le bureau des admissions de Poudlard</value>
+  </data>
 </root>
