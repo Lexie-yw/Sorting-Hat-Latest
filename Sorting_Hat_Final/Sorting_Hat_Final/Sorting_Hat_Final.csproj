@@ -108,13 +108,16 @@
     <None Include="Resources\Friend.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Hogworts.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Personality.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Question.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hogwarts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\HarryPotterTheme.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

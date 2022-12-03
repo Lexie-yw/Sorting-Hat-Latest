@@ -117,11 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>53, 552</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
@@ -149,6 +152,9 @@
   </data>
   <data name="shQuestion.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.1pt, style=Bold</value>
+  </data>
+  <data name="shQuestion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="shQuestion.Location" type="System.Drawing.Point, System.Drawing">
     <value>69, 479</value>
@@ -180,6 +186,9 @@
   <data name="&gt;&gt;shQuestion.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>516, 552</value>
   </data>
@@ -206,6 +215,9 @@
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
     <value>53, 663</value>
@@ -234,6 +246,9 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
     <value>516, 657</value>
   </data>
@@ -261,6 +276,9 @@
   <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="btnPlay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnPlay.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 2</value>
   </data>
@@ -284,6 +302,9 @@
   </data>
   <data name="&gt;&gt;btnPlay.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="btnStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnStop.Location" type="System.Drawing.Point, System.Drawing">
     <value>62, 2</value>
@@ -310,25 +331,25 @@
     <value>2</value>
   </data>
   <data name="langSelecBox.Items" xml:space="preserve">
-    <value>Deutsch</value>
+    <value>中文</value>
   </data>
   <data name="langSelecBox.Items1" xml:space="preserve">
-    <value>English (default)</value>
+    <value>Deutsch</value>
   </data>
   <data name="langSelecBox.Items2" xml:space="preserve">
-    <value>Español</value>
+    <value>English (default)</value>
   </data>
   <data name="langSelecBox.Items3" xml:space="preserve">
-    <value>Français</value>
+    <value>Español</value>
   </data>
   <data name="langSelecBox.Items4" xml:space="preserve">
-    <value>Italiano</value>
+    <value>Français</value>
   </data>
   <data name="langSelecBox.Items5" xml:space="preserve">
-    <value>ジャパニーズ</value>
+    <value>Italiano</value>
   </data>
   <data name="langSelecBox.Items6" xml:space="preserve">
-    <value>中文</value>
+    <value>ジャパニーズ</value>
   </data>
   <data name="langSelecBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>824, 2</value>
@@ -354,6 +375,9 @@
   <data name="langSelecLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="langSelecLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="langSelecLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>737, 6</value>
   </data>
@@ -377,6 +401,9 @@
   </data>
   <data name="&gt;&gt;langSelecLabel.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>53, 52</value>

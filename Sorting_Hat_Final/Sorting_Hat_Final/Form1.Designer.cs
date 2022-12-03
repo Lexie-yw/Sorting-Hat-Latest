@@ -84,12 +84,14 @@
             resources.ApplyResources(this.btnPlay, "btnPlay");
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.UseVisualStyleBackColor = true;
+            this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
             // btnStop
             // 
             resources.ApplyResources(this.btnStop, "btnStop");
             this.btnStop.Name = "btnStop";
             this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // langSelecBox
             // 
@@ -104,7 +106,7 @@
             resources.GetString("langSelecBox.Items6")});
             resources.ApplyResources(this.langSelecBox, "langSelecBox");
             this.langSelecBox.Name = "langSelecBox";
-            this.langSelecBox.Sorted = true;
+            this.langSelecBox.SelectedIndexChanged += new System.EventHandler(this.langSelecBox_SelectedIndexChanged);
             // 
             // langSelecLabel
             // 

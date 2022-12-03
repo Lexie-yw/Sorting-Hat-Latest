@@ -93,9 +93,9 @@ namespace Sorting_Hat_Final.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Hogworts {
+        internal static System.Drawing.Bitmap Hogwarts {
             get {
-                object obj = ResourceManager.GetObject("Hogworts", resourceCulture);
+                object obj = ResourceManager.GetObject("Hogwarts", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

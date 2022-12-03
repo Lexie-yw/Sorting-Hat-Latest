@@ -5,8 +5,9 @@ using System.Data;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
+using System.Media;
+using System.Threading;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
@@ -14,6 +15,8 @@ namespace Sorting_Hat_Final
 {
     public partial class Form1 : Form
     {
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
         //Sort Hat Variables: Hogwarts, Gryffindor, Slytherin, Ravenclaw and Hufflepuff.
         int hufflepuff;
         int gryffindor;
@@ -37,6 +40,12 @@ namespace Sorting_Hat_Final
             InitializeComponent();
             AskQuestion(questionNum);
             totalQuestions = 5;
+
+            //player.SoundLocation = "Properties.Resources.HarryPotterTheme.wav";
+            System.Reflection.Assembly a = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream s = a.GetManifestResourceStream("HarryPotterTheme.wav");
+            SoundPlayer player = new SoundPlayer(s);
+            player.Play();
         }
 
         public static string mostFrequent(string[] arr, int n)
@@ -94,7 +103,7 @@ namespace Sorting_Hat_Final
                 MessageBox.Show(
                     $@"Enrollment Date: {cTime}{Environment.NewLine}
                     Congrats! You're now a {result} student!
-                    {Environment.NewLine} Best,{Environment.NewLine}Hogworts Admission Office
+                    {Environment.NewLine} Best,{Environment.NewLine}Hogwarts Admission Office
                     {Environment.NewLine}Select OK to Play Again!");
 
                 questionNum = 0;
@@ -125,7 +134,7 @@ namespace Sorting_Hat_Final
                     break;
 
                 case 2:
-                    pictureBox1.Image = Properties.Resources.Hogworts;
+                    pictureBox1.Image = Properties.Resources.Hogwarts;
                     shQuestion.Text = "Choose one place to live from below options: ";
                     button1.Text = "Castle";
                     button2.Text = "Tower";
@@ -160,7 +169,7 @@ namespace Sorting_Hat_Final
                     button1.Text = "Defence Against the Dark Arts";
                     button2.Text = "Charms";
                     button3.Text = "Care of Magic Creatures";
-                    button4.Text = "Dark Art";
+                    button4.Text = "Dark Arts";
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -201,6 +210,60 @@ namespace Sorting_Hat_Final
         {
 
         }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+            player.Play();
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            player.Stop();
+        }
+
+        private void langSelecBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (langSelecBox.SelectedIndex)
+            {
+                case 0:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-CN");
+                    Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("zh-CN");
+                    break;
+
+                case 1:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("de-DE");
+                    Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("de-DE");
+                    break;
+
+                case 2:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("en-US");
+                    Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
+                    break;
+
+                case 3:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es");
+                    Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("es");
+                    break;
+
+                case 4:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("fr-FR");
+                    Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("fr-FR");
+                    break;
+
+                case 5:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("it-IT");
+                    Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("it-IT");
+                    break;
+
+                case 6:
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("ja-JP");
+                    Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("ja-JP");
+                    break;
+            }
+            this.Controls.Clear();
+            InitializeComponent();
+        }
+
     }
 }
 
