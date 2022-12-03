@@ -432,14 +432,20 @@
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>en-US</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1082, 677</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -452,5 +458,47 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorA1" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorA2" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorA3" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorA4" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorQ" xml:space="preserve">
+    <value>Choose one color from below as your lucky color:</value>
+  </data>
+  <data name="enrollmentCongrats" xml:space="preserve">
+    <value>Congrats! You're now a student of </value>
+  </data>
+  <data name="enrollmentDateMessage" xml:space="preserve">
+    <value>Enrollment date : </value>
+  </data>
+  <data name="enrollmentGreeting" xml:space="preserve">
+    <value>Best, </value>
+  </data>
+  <data name="hogwartsName" xml:space="preserve">
+    <value>Hogwarts</value>
+  </data>
+  <data name="houseNameGryffindor" xml:space="preserve">
+    <value>Gryffindor</value>
+  </data>
+  <data name="houseNameHufflepuff" xml:space="preserve">
+    <value>Hufflepuff</value>
+  </data>
+  <data name="houseNameRavenclaw" xml:space="preserve">
+    <value>Ravenclaw</value>
+  </data>
+  <data name="houseNameSlytherin" xml:space="preserve">
+    <value>Slytherin</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>Hogwarts Admission Office</value>
   </data>
 </root>

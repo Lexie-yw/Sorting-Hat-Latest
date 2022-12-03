@@ -117,7 +117,7 @@
     <None Include="Resources\Hogwarts.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\HarryPotterTheme.wav" />
+    <None Include="Resources\HarryPotterTheme.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

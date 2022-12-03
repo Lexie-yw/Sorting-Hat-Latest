@@ -158,4 +158,43 @@
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="colorA1" xml:space="preserve">
+    <value>Rouge</value>
+  </data>
+  <data name="colorA2" xml:space="preserve">
+    <value>Bleu</value>
+  </data>
+  <data name="colorA3" xml:space="preserve">
+    <value>Jaune</value>
+  </data>
+  <data name="colorA4" xml:space="preserve">
+    <value>Vert</value>
+  </data>
+  <data name="colorQ" xml:space="preserve">
+    <value>Choisissez votre couleur porte-bonheur parmi les suivantes :</value>
+  </data>
+  <data name="enrollmentCongrats" xml:space="preserve">
+    <value>Félicitations ! Vous êtes maintenant un·e étudiant·e de </value>
+  </data>
+  <data name="enrollmentDate" xml:space="preserve">
+    <value>Date d'inscription</value>
+  </data>
+  <data name="hogwartsName" xml:space="preserve">
+    <value>Poudlard</value>
+  </data>
+  <data name="houseNameGryffindor" xml:space="preserve">
+    <value>Gryffondor</value>
+  </data>
+  <data name="houseNameHufflepuff" xml:space="preserve">
+    <value>Poufsouffle</value>
+  </data>
+  <data name="houseNameRavenclaw" xml:space="preserve">
+    <value>Serdaigle</value>
+  </data>
+  <data name="houseNameSlytherin" xml:space="preserve">
+    <value>Serpentard</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>Bureau des admissions de Poudlard</value>
+  </data>
 </root>

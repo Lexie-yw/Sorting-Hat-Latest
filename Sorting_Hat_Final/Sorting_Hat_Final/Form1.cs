@@ -10,6 +10,7 @@ using System.Threading;
 using System.Text;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Resources;
 
 namespace Sorting_Hat_Final
 {
@@ -22,6 +23,11 @@ namespace Sorting_Hat_Final
         int gryffindor;
         int slytherin;
         int ravenclaw;
+
+        string houseNameGryffindor;
+        string houseNameHufflepuff;
+        string houseNameSlytherin;
+        string houseNameRavenclaw;
 
         int questionNum = 1;
         int totalQuestions;
@@ -41,11 +47,12 @@ namespace Sorting_Hat_Final
             AskQuestion(questionNum);
             totalQuestions = 5;
 
-            //player.SoundLocation = "Properties.Resources.HarryPotterTheme.wav";
-            System.Reflection.Assembly a = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream s = a.GetManifestResourceStream("HarryPotterTheme.wav");
-            SoundPlayer player = new SoundPlayer(s);
-            player.Play();
+            
+            /*System.Reflection.Assembly a = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream s = a.GetManifestResourceStream("HarryPotterTheme.wav");*/
+            
+            /*SoundPlayer audio = new SoundPlayer(Properties.Resources);
+            audio.Play();*/
         }
 
         public static string mostFrequent(string[] arr, int n)
@@ -76,22 +83,24 @@ namespace Sorting_Hat_Final
 
         private void checkAnswerEvent(object sender, EventArgs e)
         {
+            ResourceManager rm = new System.Resources.ResourceManager(typeof(Form1));
             var senderObject = (System.Windows.Forms.Button)sender;
+
             int buttonTag = Convert.ToInt32(senderObject.Tag);
             if (buttonTag == gryffindor)
             {
-                house[questionNum - 1] = "Gryffindor";
+                house[questionNum - 1] = rm.GetString("houseNameGryffindor");
             }
             else if (buttonTag == ravenclaw)
             {
-                house[questionNum - 1] = "Ravenclaw";
+                house[questionNum - 1] = rm.GetString("houseNameRavenclaw");
             }
             else if (buttonTag == hufflepuff)
             {
-                house[questionNum - 1] = "Hufflepuff";
+                house[questionNum - 1] = rm.GetString("houseNameHufflepuff");
             }
             else {
-                house[questionNum - 1] = "Slytherin";
+                house[questionNum - 1] = rm.GetString("houseNameSlytherin");
             }
 
             if (questionNum == totalQuestions) {
@@ -100,11 +109,12 @@ namespace Sorting_Hat_Final
 
                 //work on the offer:
                 string cTime = DateTime.Now.ToString("T", CultureInfo.CurrentCulture);
-                MessageBox.Show(
-                    $@"Enrollment Date: {cTime}{Environment.NewLine}
-                    Congrats! You're now a {result} student!
-                    {Environment.NewLine} Best,{Environment.NewLine}Hogwarts Admission Office
-                    {Environment.NewLine}Select OK to Play Again!");
+                string enrollmentMessageDate;
+                string enrollmentCongrats;
+                string replay;
+                MessageBox.Show((rm.GetString("enrollmentMessageDate") + cTime) + Environment.NewLine + (rm.GetString("enrollmantCongrats")) + result + Environment.NewLine + rm.GetString("enrollmentGreeting") + Environment.NewLine + rm.GetString("signature"));
+             
+                    
 
                 questionNum = 0;
                 AskQuestion(questionNum);
@@ -116,15 +126,16 @@ namespace Sorting_Hat_Final
 
         private void AskQuestion(int qnum)
         {
+            ResourceManager rm = new ResourceManager(typeof(Form1));
             switch (qnum)
             {
                 case 1:
                     pictureBox1.Image = Properties.Resources.Color;
-                    shQuestion.Text = "Choose one color from below as your lucky color: ";
-                    button1.Text = "Red";
-                    button2.Text = "Blue";
-                    button3.Text = "Yellow";
-                    button4.Text = "Green";
+                    shQuestion.Text = rm.GetString("colorQ");
+                    button1.Text = rm.GetString("colorA1");
+                    button2.Text = rm.GetString("colorA2");
+                    button3.Text = rm.GetString("colorA3");
+                    button4.Text = rm.GetString("colorA4");
 
                     gryffindor = 1;
                     ravenclaw = 2;
