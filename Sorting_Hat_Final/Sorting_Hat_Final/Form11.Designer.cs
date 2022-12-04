@@ -7,7 +7,7 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-
+/*
 namespace Sorting_Hat_Final {
     using System;
     
@@ -982,4 +982,4 @@ namespace Sorting_Hat_Final {
             }
         }
     }
-}
+}*/

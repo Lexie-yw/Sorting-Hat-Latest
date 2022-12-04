@@ -103,7 +103,7 @@ namespace Sorting_Hat_Final
                 result = mostFrequent(house, house.Length);
 
                 //work on the offer:
-                string cTime = DateTime.Now.ToString("T", CultureInfo.CurrentCulture);
+                string cTime = DateTime.Now.ToString("D", CultureInfo.CurrentCulture);
                 string replay;
                 MessageBox.Show(rm.GetString("enrollmentDateIntro") + cTime + Environment.NewLine + rm.GetString("enrollmentCongrats") + result + Environment.NewLine + rm.GetString("enrollmentGreeting") + Environment.NewLine + rm.GetString("signature"));
              
