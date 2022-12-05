@@ -118,25 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Class" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Class.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Color.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Friend" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Friend.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Patronus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Patronus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HarryPotterTheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HarryPotterTheme.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="Color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Color.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Adventure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adventure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Hogwarts" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hogwarts.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Instrument" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Instrument.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Treasure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Treasure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Class" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Class.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quidditch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quidditch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Personality" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Personality.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Question" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Friend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Friend.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Result" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Result.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

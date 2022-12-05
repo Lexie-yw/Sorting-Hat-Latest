@@ -7,7 +7,7 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-/*
+
 namespace Sorting_Hat_Final {
     using System;
     
@@ -22,14 +22,14 @@ namespace Sorting_Hat_Final {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Form1 {
+    public class Form11 {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Form1() {
+        internal Form11() {
         }
         
         /// <summary>
@@ -982,4 +982,4 @@ namespace Sorting_Hat_Final {
             }
         }
     }
-}*/
+}

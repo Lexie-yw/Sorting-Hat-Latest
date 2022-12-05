@@ -63,6 +63,16 @@ namespace Sorting_Hat_Final.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Adventure {
+            get {
+                object obj = ResourceManager.GetObject("Adventure", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Class {
             get {
                 object obj = ResourceManager.GetObject("Class", resourceCulture);
@@ -112,6 +122,26 @@ namespace Sorting_Hat_Final.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Instrument {
+            get {
+                object obj = ResourceManager.GetObject("Instrument", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Patronus {
+            get {
+                object obj = ResourceManager.GetObject("Patronus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Personality {
             get {
                 object obj = ResourceManager.GetObject("Personality", resourceCulture);
@@ -125,6 +155,46 @@ namespace Sorting_Hat_Final.Properties {
         internal static System.Drawing.Bitmap Question {
             get {
                 object obj = ResourceManager.GetObject("Question", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Quidditch {
+            get {
+                object obj = ResourceManager.GetObject("Quidditch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Result {
+            get {
+                object obj = ResourceManager.GetObject("Result", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tea {
+            get {
+                object obj = ResourceManager.GetObject("Tea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Treasure {
+            get {
+                object obj = ResourceManager.GetObject("Treasure", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -143,5 +143,26 @@
   <ItemGroup>
     <None Include="Resources\HarryPotterTheme.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adventure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patronus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quidditch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Treasure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tea.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instrument.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Result.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
