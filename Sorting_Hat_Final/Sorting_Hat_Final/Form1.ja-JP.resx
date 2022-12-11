@@ -158,4 +158,199 @@
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="advA1" xml:space="preserve">
+    <value>禁じられた森</value>
+  </data>
+  <data name="advA2" xml:space="preserve">
+    <value>図書館</value>
+  </data>
+  <data name="advA3" xml:space="preserve">
+    <value>厨房</value>
+  </data>
+  <data name="advA4" xml:space="preserve">
+    <value>必要の部屋</value>
+  </data>
+  <data name="advQ" xml:space="preserve">
+    <value>MIISから来たあなたにとって、ホグワーツは全く新しい世界です。もし日曜日に時間があったら、どこに行きますか？</value>
+  </data>
+  <data name="animalA1" xml:space="preserve">
+    <value>ライオン</value>
+  </data>
+  <data name="animalA2" xml:space="preserve">
+    <value>ワシ</value>
+  </data>
+  <data name="animalA3" xml:space="preserve">
+    <value>アナグマ</value>
+  </data>
+  <data name="animalA4" xml:space="preserve">
+    <value>サーペント</value>
+  </data>
+  <data name="animalQ" xml:space="preserve">
+    <value>仲間にしたいと思う動物は？</value>
+  </data>
+  <data name="colorA1" xml:space="preserve">
+    <value>深紅</value>
+  </data>
+  <data name="colorA2" xml:space="preserve">
+    <value>青</value>
+  </data>
+  <data name="colorA3" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="colorA4" xml:space="preserve">
+    <value>緑</value>
+  </data>
+  <data name="colorQ" xml:space="preserve">
+    <value>あなたのラッキーカラーは？</value>
+  </data>
+  <data name="courseA1" xml:space="preserve">
+    <value>闇の魔術に対する防衛術</value>
+  </data>
+  <data name="courseA2" xml:space="preserve">
+    <value>呪文学</value>
+  </data>
+  <data name="courseA3" xml:space="preserve">
+    <value>魔法生物飼育学</value>
+  </data>
+  <data name="courseA4" xml:space="preserve">
+    <value>魔法薬学</value>
+  </data>
+  <data name="courseQ" xml:space="preserve">
+    <value>最初の学期で受けてみたい主要科目は？</value>
+  </data>
+  <data name="enrollmentCongrats" xml:space="preserve">
+    <value>おめでとうございます！あなたに割り当てた寮は </value>
+  </data>
+  <data name="enrollmentDateIntro" xml:space="preserve">
+    <value>入学日：</value>
+  </data>
+  <data name="enrollmentGreeting" xml:space="preserve">
+    <value>よろしくお願いします。</value>
+  </data>
+  <data name="houseNameGryffindor" xml:space="preserve">
+    <value>グリフィンドール</value>
+  </data>
+  <data name="houseNameHufflePuff" xml:space="preserve">
+    <value>ハッフルパフ</value>
+  </data>
+  <data name="houseNameRavenclaw" xml:space="preserve">
+    <value>レイブンクロー</value>
+  </data>
+  <data name="houseNameSlytherin" xml:space="preserve">
+    <value>スリザリン</value>
+  </data>
+  <data name="insA1" xml:space="preserve">
+    <value>ヴァイオリン</value>
+  </data>
+  <data name="insA2" xml:space="preserve">
+    <value>ドラム</value>
+  </data>
+  <data name="insA3" xml:space="preserve">
+    <value>ピアノ</value>
+  </data>
+  <data name="insA4" xml:space="preserve">
+    <value>トランペット</value>
+  </data>
+  <data name="insQ" xml:space="preserve">
+    <value>人生にサウンドトラックがあるとしたら、どの楽器を選びますか？</value>
+  </data>
+  <data name="langSelecLabel.Text1" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="patronusA1" xml:space="preserve">
+    <value>牡鹿</value>
+  </data>
+  <data name="patronusA2" xml:space="preserve">
+    <value>オオカミ</value>
+  </data>
+  <data name="patronusA3" xml:space="preserve">
+    <value>野うさぎ</value>
+  </data>
+  <data name="patronusA4" xml:space="preserve">
+    <value>雌鹿</value>
+  </data>
+  <data name="patronusQ" xml:space="preserve">
+    <value>あなたの守護霊は？</value>
+  </data>
+  <data name="placeA1" xml:space="preserve">
+    <value>南塔</value>
+  </data>
+  <data name="placeA2" xml:space="preserve">
+    <value>高い塔</value>
+  </data>
+  <data name="placeA3" xml:space="preserve">
+    <value>湖の下の城</value>
+  </data>
+  <data name="placeA4" xml:space="preserve">
+    <value>暖かい地下室</value>
+  </data>
+  <data name="placeQ" xml:space="preserve">
+    <value>どこに住みたいですか？</value>
+  </data>
+  <data name="qdchA1" xml:space="preserve">
+    <value>シーカー</value>
+  </data>
+  <data name="qdchA2" xml:space="preserve">
+    <value>チェイサー</value>
+  </data>
+  <data name="qdchA3" xml:space="preserve">
+    <value>客席でみんなを応援する</value>
+  </data>
+  <data name="qdchA4" xml:space="preserve">
+    <value>ビーター</value>
+  </data>
+  <data name="qdchQ" xml:space="preserve">
+    <value>あなたはこの数週間、クィディッチ・ワールドカップを観戦しましたが、今度こそ自分の寮のチームに入りたいと考えています。どのポジションに応募したいですか？</value>
+  </data>
+  <data name="qualityA1" xml:space="preserve">
+    <value>勇気</value>
+  </data>
+  <data name="qualityA2" xml:space="preserve">
+    <value>知性</value>
+  </data>
+  <data name="qualityA3" xml:space="preserve">
+    <value>忠義</value>
+  </data>
+  <data name="qualityA4" xml:space="preserve">
+    <value>野心</value>
+  </data>
+  <data name="qualityQ" xml:space="preserve">
+    <value>あなたにとって、最も大切な性格的特徴は？</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>ホグワーツ入試事務局</value>
+  </data>
+  <data name="teaA1" xml:space="preserve">
+    <value>ローストビーフヨークシャープディング添え</value>
+  </data>
+  <data name="teaA2" xml:space="preserve">
+    <value>サーモンのフィンガーサンドイッチ</value>
+  </data>
+  <data name="teaA3" xml:space="preserve">
+    <value>パンプキンパスティ</value>
+  </data>
+  <data name="teaA4" xml:space="preserve">
+    <value>ロックケーキ</value>
+  </data>
+  <data name="teaQ" xml:space="preserve">
+    <value>うららかな午後に、アフタヌーンティーは何にしますか？</value>
+  </data>
+  <data name="this.Text" xml:space="preserve">
+    <value>組み分け帽子</value>
+  </data>
+  <data name="treasureA1" xml:space="preserve">
+    <value>剣</value>
+  </data>
+  <data name="treasureA2" xml:space="preserve">
+    <value>王冠</value>
+  </data>
+  <data name="treasureA3" xml:space="preserve">
+    <value>黄金の杯</value>
+  </data>
+  <data name="treasureA4" xml:space="preserve">
+    <value>秘密の日記</value>
+  </data>
+  <data name="treasureQ" xml:space="preserve">
+    <value>あなたの最も貴重な所有物は？</value>
+  </data>
 </root>

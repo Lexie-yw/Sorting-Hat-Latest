@@ -209,13 +209,208 @@
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1234, 628</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+  <data name="this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>16, 31</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+  <data name="this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1870, 1195</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 3, 4, 3</value>
+  </data>
+  <data name="advA1" xml:space="preserve">
+    <value>Forbidden Forest</value>
+  </data>
+  <data name="advA2" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="advA3" xml:space="preserve">
+    <value>Kitchen</value>
+  </data>
+  <data name="advA4" xml:space="preserve">
+    <value>Room of Requirement</value>
+  </data>
+  <data name="advQ" xml:space="preserve">
+    <value>Coming from MIIS, Hogwarts is a whole different school: you have free time on Sunday. Where do you go?</value>
+  </data>
+  <data name="animalA1" xml:space="preserve">
+    <value>Lion</value>
+  </data>
+  <data name="animalA2" xml:space="preserve">
+    <value>Eagle</value>
+  </data>
+  <data name="animalA3" xml:space="preserve">
+    <value>Badger</value>
+  </data>
+  <data name="animalA4" xml:space="preserve">
+    <value>Snake</value>
+  </data>
+  <data name="animalQ" xml:space="preserve">
+    <value>What is your favorite animal companion?</value>
+  </data>
+  <data name="colorA1" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="colorA2" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="colorA3" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="colorA4" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="colorQ" xml:space="preserve">
+    <value>What is your lucky color?</value>
+  </data>
+  <data name="courseA1" xml:space="preserve">
+    <value>Defense against the Dark Arts</value>
+  </data>
+  <data name="courseA2" xml:space="preserve">
+    <value>Charms</value>
+  </data>
+  <data name="courseA3" xml:space="preserve">
+    <value>Care of Magic Creatures</value>
+  </data>
+  <data name="courseA4" xml:space="preserve">
+    <value>Potions</value>
+  </data>
+  <data name="courseQ" xml:space="preserve">
+    <value>What will be your core course in the first semester?</value>
+  </data>
+  <data name="enrollmentCongrats" xml:space="preserve">
+    <value>Congratulations! You are now a student of </value>
+  </data>
+  <data name="enrollmentDateIntro" xml:space="preserve">
+    <value>Enrollment Date: </value>
+  </data>
+  <data name="enrollmentGreeting" xml:space="preserve">
+    <value>Best, </value>
+  </data>
+  <data name="houseNameGryffindor" xml:space="preserve">
+    <value>Gryffindor</value>
+  </data>
+  <data name="houseNameHufflePuff" xml:space="preserve">
+    <value>HufflePuff</value>
+  </data>
+  <data name="houseNameRavenclaw" xml:space="preserve">
+    <value>Ravenclaw</value>
+  </data>
+  <data name="houseNameSlytherin" xml:space="preserve">
+    <value>Slytherin</value>
+  </data>
+  <data name="insA1" xml:space="preserve">
+    <value>Violin</value>
+  </data>
+  <data name="insA2" xml:space="preserve">
+    <value>Drums</value>
+  </data>
+  <data name="insA3" xml:space="preserve">
+    <value>Piano</value>
+  </data>
+  <data name="insA4" xml:space="preserve">
+    <value>Trumpet</value>
+  </data>
+  <data name="insQ" xml:space="preserve">
+    <value>Which instrument would you choose for the soundtrack of your life?</value>
+  </data>
+  <data name="langSelecLabel.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="patronusA1" xml:space="preserve">
+    <value>Stag</value>
+  </data>
+  <data name="patronusA2" xml:space="preserve">
+    <value>Wolf </value>
+  </data>
+  <data name="patronusA3" xml:space="preserve">
+    <value>Hare</value>
+  </data>
+  <data name="patronusA4" xml:space="preserve">
+    <value>Doe</value>
+  </data>
+  <data name="patronusQ" xml:space="preserve">
+    <value>What is your Patronus?</value>
+  </data>
+  <data name="placeA1" xml:space="preserve">
+    <value>Southern Tower</value>
+  </data>
+  <data name="placeA2" xml:space="preserve">
+    <value>High Tower</value>
+  </data>
+  <data name="placeA3" xml:space="preserve">
+    <value>Under Lake Palace</value>
+  </data>
+  <data name="placeA4" xml:space="preserve">
+    <value>Warm Basement</value>
+  </data>
+  <data name="placeQ" xml:space="preserve">
+    <value>Where do you want to live?</value>
+  </data>
+  <data name="qdchA1" xml:space="preserve">
+    <value>Seeker</value>
+  </data>
+  <data name="qdchA2" xml:space="preserve">
+    <value>Chaser</value>
+  </data>
+  <data name="qdchA3" xml:space="preserve">
+    <value>You’ll be cheering in the crowd, supporting everyone</value>
+  </data>
+  <data name="qdchA4" xml:space="preserve">
+    <value>Beater</value>
+  </data>
+  <data name="qdchQ" xml:space="preserve">
+    <value>You’ve followed the Quidditch world cup in the past weeks and now you want to join your house’s team. Which position do you want to play?</value>
+  </data>
+  <data name="qualityA1" xml:space="preserve">
+    <value>Courage</value>
+  </data>
+  <data name="qualityA2" xml:space="preserve">
+    <value>Wisdom</value>
+  </data>
+  <data name="qualityA3" xml:space="preserve">
+    <value>Loyalty</value>
+  </data>
+  <data name="qualityA4" xml:space="preserve">
+    <value>Ambition</value>
+  </data>
+  <data name="qualityQ" xml:space="preserve">
+    <value>Which quality do you value the most?</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>Admission Office of Hogwarts, School of Witchcraft and Wizardry</value>
+  </data>
+  <data name="teaA1" xml:space="preserve">
+    <value>Yorkshire pudding with roast beef</value>
+  </data>
+  <data name="teaA2" xml:space="preserve">
+    <value>Salmon finger sandwiches</value>
+  </data>
+  <data name="teaA3" xml:space="preserve">
+    <value>Pumpkin pasties</value>
+  </data>
+  <data name="teaA4" xml:space="preserve">
+    <value>Rock cakes</value>
+  </data>
+  <data name="teaQ" xml:space="preserve">
+    <value>It’s a sunny afternoon. What will you have with your tea?</value>
+  </data>
+  <data name="this.Text" xml:space="preserve">
+    <value>Sorting Hat</value>
+  </data>
+  <data name="treasureA1" xml:space="preserve">
+    <value>Sword</value>
+  </data>
+  <data name="treasureA2" xml:space="preserve">
+    <value>Diadem</value>
+  </data>
+  <data name="treasureA3" xml:space="preserve">
+    <value>Golden cup</value>
+  </data>
+  <data name="treasureA4" xml:space="preserve">
+    <value>Personal diary</value>
+  </data>
+  <data name="treasureQ" xml:space="preserve">
+    <value>What’s your most precious possession?</value>
   </data>
 </root>

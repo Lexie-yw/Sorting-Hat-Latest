@@ -127,7 +127,202 @@
   <data name="langSelecLabel.Text" xml:space="preserve">
     <value>语言</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
+  <data name="s" xml:space="preserve">
     <value>                                                                    </value>
+  </data>
+  <data name="advA1" xml:space="preserve">
+    <value>禁林</value>
+  </data>
+  <data name="advA2" xml:space="preserve">
+    <value>图书馆</value>
+  </data>
+  <data name="advA3" xml:space="preserve">
+    <value>厨房</value>
+  </data>
+  <data name="advA4" xml:space="preserve">
+    <value>有求必应屋</value>
+  </data>
+  <data name="advQ" xml:space="preserve">
+    <value>霍格沃茨是一个和MIIS完全不一样的学校，如果周末有空的话，你会去霍格沃茨的：</value>
+  </data>
+  <data name="animalA1" xml:space="preserve">
+    <value>狮</value>
+  </data>
+  <data name="animalA2" xml:space="preserve">
+    <value>鹰</value>
+  </data>
+  <data name="animalA3" xml:space="preserve">
+    <value>獾</value>
+  </data>
+  <data name="animalA4" xml:space="preserve">
+    <value>蛇</value>
+  </data>
+  <data name="animalQ" xml:space="preserve">
+    <value>请从以下动物中选出你的伙伴：</value>
+  </data>
+  <data name="colorA1" xml:space="preserve">
+    <value>红色</value>
+  </data>
+  <data name="colorA2" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="colorA3" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="colorA4" xml:space="preserve">
+    <value>绿色</value>
+  </data>
+  <data name="colorQ" xml:space="preserve">
+    <value>请从以下选项中选择你的幸运颜色：</value>
+  </data>
+  <data name="courseA1" xml:space="preserve">
+    <value>黑魔法防御术</value>
+  </data>
+  <data name="courseA2" xml:space="preserve">
+    <value>魔咒学</value>
+  </data>
+  <data name="courseA3" xml:space="preserve">
+    <value>保护神奇动物</value>
+  </data>
+  <data name="courseA4" xml:space="preserve">
+    <value>魔药学</value>
+  </data>
+  <data name="courseQ" xml:space="preserve">
+    <value>请选一门课作为你第一学期的核心课程：</value>
+  </data>
+  <data name="enrollmentCongrats" xml:space="preserve">
+    <value>恭喜！你已被录取到</value>
+  </data>
+  <data name="enrollmentDateIntro" xml:space="preserve">
+    <value>注册日期：</value>
+  </data>
+  <data name="enrollmentGreeting" xml:space="preserve">
+    <value>真挚问候</value>
+  </data>
+  <data name="houseNameGryffindor" xml:space="preserve">
+    <value>格兰芬多</value>
+  </data>
+  <data name="houseNameHufflePuff" xml:space="preserve">
+    <value>赫奇帕奇</value>
+  </data>
+  <data name="houseNameRavenclaw" xml:space="preserve">
+    <value>拉文克劳</value>
+  </data>
+  <data name="houseNameSlytherin" xml:space="preserve">
+    <value>斯莱特林</value>
+  </data>
+  <data name="insA1" xml:space="preserve">
+    <value>小提琴</value>
+  </data>
+  <data name="insA2" xml:space="preserve">
+    <value>鼓</value>
+  </data>
+  <data name="insA3" xml:space="preserve">
+    <value>钢琴</value>
+  </data>
+  <data name="insA4" xml:space="preserve">
+    <value>小号</value>
+  </data>
+  <data name="insQ" xml:space="preserve">
+    <value>你会选择哪种乐器为你生活的配乐:</value>
+  </data>
+  <data name="langSelecLabel.Text1" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="patronusA1" xml:space="preserve">
+    <value>牡鹿</value>
+  </data>
+  <data name="patronusA2" xml:space="preserve">
+    <value>狼</value>
+  </data>
+  <data name="patronusA3" xml:space="preserve">
+    <value>野兔</value>
+  </data>
+  <data name="patronusA4" xml:space="preserve">
+    <value>牝鹿</value>
+  </data>
+  <data name="patronusQ" xml:space="preserve">
+    <value>你的守护神是:</value>
+  </data>
+  <data name="placeA1" xml:space="preserve">
+    <value>南塔</value>
+  </data>
+  <data name="placeA2" xml:space="preserve">
+    <value>高塔</value>
+  </data>
+  <data name="placeA3" xml:space="preserve">
+    <value>湖底宫殿</value>
+  </data>
+  <data name="placeA4" xml:space="preserve">
+    <value>温暖的地下室</value>
+  </data>
+  <data name="placeQ" xml:space="preserve">
+    <value>以下地点中，你愿意住在：</value>
+  </data>
+  <data name="qdchA1" xml:space="preserve">
+    <value>找球手</value>
+  </data>
+  <data name="qdchA2" xml:space="preserve">
+    <value>追球手</value>
+  </data>
+  <data name="qdchA3" xml:space="preserve">
+    <value>坐在观众席中，为大家加油打气</value>
+  </data>
+  <data name="qdchA4" xml:space="preserve">
+    <value>击球手</value>
+  </data>
+  <data name="qdchQ" xml:space="preserve">
+    <value>在过去几周中，你一直在关注魁地奇世界杯赛。现在，你想申请加入学院魁地奇队，担当：</value>
+  </data>
+  <data name="qualityA1" xml:space="preserve">
+    <value>勇敢</value>
+  </data>
+  <data name="qualityA2" xml:space="preserve">
+    <value>智慧</value>
+  </data>
+  <data name="qualityA3" xml:space="preserve">
+    <value>忠诚</value>
+  </data>
+  <data name="qualityA4" xml:space="preserve">
+    <value>抱负</value>
+  </data>
+  <data name="qualityQ" xml:space="preserve">
+    <value>以下品质中，你最看重的是：</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>霍格沃茨招生办</value>
+  </data>
+  <data name="teaA1" xml:space="preserve">
+    <value>约克郡布丁配烤牛肉</value>
+  </data>
+  <data name="teaA2" xml:space="preserve">
+    <value>三文鱼手指三明治</value>
+  </data>
+  <data name="teaA3" xml:space="preserve">
+    <value>南瓜馅饼</value>
+  </data>
+  <data name="teaA4" xml:space="preserve">
+    <value>岩皮饼</value>
+  </data>
+  <data name="teaQ" xml:space="preserve">
+    <value>在阳光明媚的午后，你会选择的下午茶是：</value>
+  </data>
+  <data name="this.Text" xml:space="preserve">
+    <value>分院帽</value>
+  </data>
+  <data name="treasureA1" xml:space="preserve">
+    <value>宝剑</value>
+  </data>
+  <data name="treasureA2" xml:space="preserve">
+    <value>冠冕</value>
+  </data>
+  <data name="treasureA3" xml:space="preserve">
+    <value>金杯</value>
+  </data>
+  <data name="treasureA4" xml:space="preserve">
+    <value>秘密日记</value>
+  </data>
+  <data name="treasureQ" xml:space="preserve">
+    <value>你最珍贵的物品是：</value>
   </data>
 </root>
