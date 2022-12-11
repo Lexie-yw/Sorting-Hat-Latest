@@ -203,17 +203,17 @@ namespace Sorting_Hat_Final
                     //Due to warning message, haven't implement i18n and i10n
                     //Did not externalize texts to .resx yet
 
-                    /*shQuestion.Text = rm.GetString("insQ");
+                    shQuestion.Text = rm.GetString("insQ");
                     button1.Text = rm.GetString("insA1");
                     button2.Text = rm.GetString("insA2");
                     button3.Text = rm.GetString("insA3");
-                    button4.Text = rm.GetString("insA4");*/
-
-                    shQuestion.Text = "Which instrument would you choose for the soundtrack of your life?";
-                    button1.Text = "Violin";
-                    button2.Text = "Drum";
-                    button3.Text = "Piano";
-                    button4.Text = "Trumpet";
+                    button4.Text = rm.GetString("insA4");
+                    /*
+                                        shQuestion.Text = "Which instrument would you choose for the soundtrack of your life?";
+                                        button1.Text = "Violin";
+                                        button2.Text = "Drum";
+                                        button3.Text = "Piano";
+                                        button4.Text = "Trumpet";*/
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -228,17 +228,17 @@ namespace Sorting_Hat_Final
                     //Due to warning message, haven't implement i18n and i10n
                     //Did not externalize texts to .resx yet
 
-                    /*shQuestion.Text = rm.GetString("teaQ");
+                    shQuestion.Text = rm.GetString("teaQ");
                     button1.Text = rm.GetString("teaA1");
                     button2.Text = rm.GetString("teaA2");
                     button3.Text = rm.GetString("teaA3");
-                    button4.Text = rm.GetString("teaA4");*/
+                    button4.Text = rm.GetString("teaA4");
 
-                    shQuestion.Text = "It’s a sunny afternoon. What will you have with your tea?";
+/*                    shQuestion.Text = "It’s a sunny afternoon. What will you have with your tea?";
                     button1.Text = "Yorkshire pudding with roast beef";
                     button2.Text = "Salmon finger sandwiches";
                     button3.Text = "Pumpkin pasties";
-                    button4.Text = "Rock cakes";
+                    button4.Text = "Rock cakes";*/
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -253,17 +253,17 @@ namespace Sorting_Hat_Final
                     //Due to warning message, haven't implement i18n and i10n
                     //Did not externalize texts to .resx yet
 
-                    /*shQuestion.Text = rm.GetString("patronusQ");
+                    shQuestion.Text = rm.GetString("patronusQ");
                     button1.Text = rm.GetString("patronusA1");
                     button2.Text = rm.GetString("patronusA2");
                     button3.Text = rm.GetString("patronusA3");
-                    button4.Text = rm.GetString("patronusA4");*/
+                    button4.Text = rm.GetString("patronusA4");
 
-                    shQuestion.Text = "What Patronus are you?";
-                    button1.Text = "A stag";
-                    button2.Text = "A hare";
-                    button3.Text = "A wolf";
-                    button4.Text = "A doe";
+                    /*                    shQuestion.Text = "What Patronus are you?";
+                                        button1.Text = "A stag";
+                                        button2.Text = "A hare";
+                                        button3.Text = "A wolf";
+                                        button4.Text = "A doe";*/
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -278,17 +278,17 @@ namespace Sorting_Hat_Final
                     //Due to warning message, haven't implement i18n and i10n
                     //Did not externalize texts to .resx yet
 
-                    /*shQuestion.Text = rm.GetString("treasureQ");
+                    shQuestion.Text = rm.GetString("treasureQ");
                     button1.Text = rm.GetString("treasureA1");
                     button2.Text = rm.GetString("treasureA2");
                     button3.Text = rm.GetString("treasureA3");
-                    button4.Text = rm.GetString("treasureA4");*/
+                    button4.Text = rm.GetString("treasureA4");
 
-                    shQuestion.Text = "What’s your most precious possession?";
-                    button1.Text = "A sword";
-                    button2.Text = "A diadem";
-                    button3.Text = "A golden cup";
-                    button4.Text = "A personal diary";
+                    /*                    shQuestion.Text = "What’s your most precious possession?";
+                                        button1.Text = "A sword";
+                                        button2.Text = "A diadem";
+                                        button3.Text = "A golden cup";
+                                        button4.Text = "A personal diary";*/
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -304,17 +304,17 @@ namespace Sorting_Hat_Final
                     //Due to warning message, haven't implement i18n and i10n
                     //Did not externalize texts to .resx yet
 
-                    /*shQuestion.Text = rm.GetString("qdchQ");
+                    shQuestion.Text = rm.GetString("qdchQ");
                     button1.Text = rm.GetString("qdchA1");
                     button2.Text = rm.GetString("qdchA2");
                     button3.Text = rm.GetString("qdchA3");
-                    button4.Text = rm.GetString("qdchA4");*/
-
-                    shQuestion.Text = "You’ve followed the Quidditch world cup in the past weeks and now you want to join your house’s team as:";
-                    button1.Text = "Chaser";
-                    button2.Text = "Seeker";
-                    button3.Text = "You’ll be cheering in the crowd, supporting everyone";
-                    button4.Text = "Beater";
+                    button4.Text = rm.GetString("qdchA4");
+                    /*
+                                        shQuestion.Text = "You’ve followed the Quidditch world cup in the past weeks and now you want to join your house’s team as:";
+                                        button1.Text = "Chaser";
+                                        button2.Text = "Seeker";
+                                        button3.Text = "You’ll be cheering in the crowd, supporting everyone";
+                                        button4.Text = "Beater";*/
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -329,17 +329,17 @@ namespace Sorting_Hat_Final
                     //Due to warning message, haven't implement i18n and i10n
                     //Did not externalize texts to .resx yet
 
-                    /*shQuestion.Text = rm.GetString("advQ");
+                    shQuestion.Text = rm.GetString("advQ");
                     button1.Text = rm.GetString("advA1");
                     button2.Text = rm.GetString("advA2");
                     button3.Text = rm.GetString("advA3");
-                    button4.Text = rm.GetString("advA4");*/
+                    button4.Text = rm.GetString("advA4");
 
-                    shQuestion.Text = "Coming from MIIS, Hogwarts is a whole different school: you have free time on Sunday. Where do you go?";
+/*                    shQuestion.Text = "Coming from MIIS, Hogwarts is a whole different school: you have free time on Sunday. Where do you go?";
                     button1.Text = "The Forbidden Forest";
                     button2.Text = "The Library";
                     button3.Text = "The Kitchen";
-                    button4.Text = "The Room of Requirement";
+                    button4.Text = "The Room of Requirement";*/
 
                     gryffindor = 1;
                     ravenclaw = 2;
