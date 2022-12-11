@@ -142,9 +142,6 @@
   <data name="langSelecLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
   </data>
-  <data name="langSelecLabel.Text" xml:space="preserve">
-    <value>Langue</value>
-  </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>137, 52</value>
   </data>
@@ -155,8 +152,20 @@
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Choixpeau magique</value>
+  <data name="advA1" xml:space="preserve">
+    <value>Forêt interdite</value>
+  </data>
+  <data name="advA2" xml:space="preserve">
+    <value>Bibliothèque</value>
+  </data>
+  <data name="advA3" xml:space="preserve">
+    <value>Cuisines</value>
+  </data>
+  <data name="advA4" xml:space="preserve">
+    <value>Salle sur demande</value>
+  </data>
+  <data name="advQ" xml:space="preserve">
+    <value>Poudlard est le jour et la nuit comparé à MIIS : tu as du temps libre le dimanche. Où le passes-tu ?</value>
   </data>
   <data name="animalA1" xml:space="preserve">
     <value>Lion</value>
@@ -224,20 +233,68 @@
   <data name="houseNameSlytherin" xml:space="preserve">
     <value>Serpentard</value>
   </data>
+  <data name="insA1" xml:space="preserve">
+    <value>Violon</value>
+  </data>
+  <data name="insA2" xml:space="preserve">
+    <value>Batterie</value>
+  </data>
+  <data name="insA3" xml:space="preserve">
+    <value>Piano</value>
+  </data>
+  <data name="insA4" xml:space="preserve">
+    <value>Trompette</value>
+  </data>
+  <data name="insQ" xml:space="preserve">
+    <value>Quel instrument ferait la bande-sonore de ta vie ?</value>
+  </data>
+  <data name="langSelecLabel.Text" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="patronusA1" xml:space="preserve">
+    <value>Un cerf</value>
+  </data>
+  <data name="patronusA2" xml:space="preserve">
+    <value>Un loup</value>
+  </data>
+  <data name="patronusA3" xml:space="preserve">
+    <value>Un lièvre</value>
+  </data>
+  <data name="patronusA4" xml:space="preserve">
+    <value>Une biche</value>
+  </data>
+  <data name="patronusQ" xml:space="preserve">
+    <value>Quel est ton Patronus ?</value>
+  </data>
   <data name="placeA1" xml:space="preserve">
-    <value>Château</value>
+    <value>Dans la tour du Sud</value>
   </data>
   <data name="placeA2" xml:space="preserve">
-    <value>Tour</value>
+    <value>Dans la Haute-Tour</value>
   </data>
   <data name="placeA3" xml:space="preserve">
-    <value>Sous un lac</value>
+    <value>Dans un palais sous le lac</value>
   </data>
   <data name="placeA4" xml:space="preserve">
     <value>Sous-sol</value>
   </data>
   <data name="placeQ" xml:space="preserve">
     <value>Où souhaites-tu résider ?</value>
+  </data>
+  <data name="qdchA1" xml:space="preserve">
+    <value>Attrapeur·se</value>
+  </data>
+  <data name="qdchA2" xml:space="preserve">
+    <value>Poursuiveur·se</value>
+  </data>
+  <data name="qdchA3" xml:space="preserve">
+    <value>Tu seras sur les gradins, encourageant tout le monde</value>
+  </data>
+  <data name="qdchA4" xml:space="preserve">
+    <value>Batteur·se</value>
+  </data>
+  <data name="qdchQ" xml:space="preserve">
+    <value>Tu as suivi la coupe du monde de Quidditch ces dernières semaines. Tu veux maintenant rejoindre l'équipe de ta maison. Quel poste veux-tu occuper ?</value>
   </data>
   <data name="qualityA1" xml:space="preserve">
     <value>Courage</value>
@@ -255,6 +312,39 @@
     <value>Quelle qualité t'est la plus chère ?</value>
   </data>
   <data name="signature" xml:space="preserve">
-    <value>Le bureau des admissions de Poudlard</value>
+    <value>Le bureau des admissions de Poudlard, école de magie et de sorcellerie</value>
+  </data>
+  <data name="teaA1" xml:space="preserve">
+    <value>Pain au chocolat</value>
+  </data>
+  <data name="teaA2" xml:space="preserve">
+    <value>Crêpe citron-sucre</value>
+  </data>
+  <data name="teaA3" xml:space="preserve">
+    <value>Tarte au pomme</value>
+  </data>
+  <data name="teaA4" xml:space="preserve">
+    <value>Rochers</value>
+  </data>
+  <data name="teaQ" xml:space="preserve">
+    <value>C'est un bel après-midi. Que choisis-tu pour ton goûter ?</value>
+  </data>
+  <data name="this.Text" xml:space="preserve">
+    <value>Choixpeau magique</value>
+  </data>
+  <data name="treasureA1" xml:space="preserve">
+    <value>Une épée</value>
+  </data>
+  <data name="treasureA2" xml:space="preserve">
+    <value>Un diadème</value>
+  </data>
+  <data name="treasureA3" xml:space="preserve">
+    <value>Une coupe en or</value>
+  </data>
+  <data name="treasureA4" xml:space="preserve">
+    <value>Ton journal intime</value>
+  </data>
+  <data name="treasureQ" xml:space="preserve">
+    <value>Quel est l'objet le plus précieux que tu possèdes ?</value>
   </data>
 </root>

@@ -158,4 +158,199 @@
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="advA1" xml:space="preserve">
+    <value>Bosque prohibido</value>
+  </data>
+  <data name="advA2" xml:space="preserve">
+    <value>Biblioteca</value>
+  </data>
+  <data name="advA3" xml:space="preserve">
+    <value>Cocinas</value>
+  </data>
+  <data name="advA4" xml:space="preserve">
+    <value>Sala de los Menesteres</value>
+  </data>
+  <data name="advQ" xml:space="preserve">
+    <value>Viniendo de MIIS, Hogwarts es una escuela totalmente diferente: tienes tiempo libre el domingo. ¿A dónde vas?</value>
+  </data>
+  <data name="animalA1" xml:space="preserve">
+    <value>León</value>
+  </data>
+  <data name="animalA2" xml:space="preserve">
+    <value>Águila</value>
+  </data>
+  <data name="animalA3" xml:space="preserve">
+    <value>Tejón</value>
+  </data>
+  <data name="animalA4" xml:space="preserve">
+    <value>Serpiente</value>
+  </data>
+  <data name="animalQ" xml:space="preserve">
+    <value>¿Cuál es tu compañero animal favorito?</value>
+  </data>
+  <data name="colorA1" xml:space="preserve">
+    <value>Rojo</value>
+  </data>
+  <data name="colorA2" xml:space="preserve">
+    <value>Azul</value>
+  </data>
+  <data name="colorA3" xml:space="preserve">
+    <value>Amarillo</value>
+  </data>
+  <data name="colorA4" xml:space="preserve">
+    <value>Verde</value>
+  </data>
+  <data name="colorQ" xml:space="preserve">
+    <value>¿Cuál es tu color de la suerte?</value>
+  </data>
+  <data name="courseA1" xml:space="preserve">
+    <value>Defensa contra las Artes Oscuras</value>
+  </data>
+  <data name="courseA2" xml:space="preserve">
+    <value>Encantamientos</value>
+  </data>
+  <data name="courseA3" xml:space="preserve">
+    <value>Cuidado de Criaturas Mágicas</value>
+  </data>
+  <data name="courseA4" xml:space="preserve">
+    <value>Pociones</value>
+  </data>
+  <data name="courseQ" xml:space="preserve">
+    <value>¿Cuál será tu asignatura principal en el primer semestre?</value>
+  </data>
+  <data name="enrollmentCongrats" xml:space="preserve">
+    <value>¡Enhorabuena! Ahora eres un estudiante de </value>
+  </data>
+  <data name="enrollmentDateIntro" xml:space="preserve">
+    <value>Fecha de inscripción: </value>
+  </data>
+  <data name="enrollmentGreeting" xml:space="preserve">
+    <value>Cordialmente, </value>
+  </data>
+  <data name="houseNameGryffindor" xml:space="preserve">
+    <value>Gryffindor</value>
+  </data>
+  <data name="houseNameHufflePuff" xml:space="preserve">
+    <value>HufflePuff</value>
+  </data>
+  <data name="houseNameRavenclaw" xml:space="preserve">
+    <value>Ravenclaw</value>
+  </data>
+  <data name="houseNameSlytherin" xml:space="preserve">
+    <value>Slytherin</value>
+  </data>
+  <data name="insA1" xml:space="preserve">
+    <value>Violín</value>
+  </data>
+  <data name="insA2" xml:space="preserve">
+    <value>Batería</value>
+  </data>
+  <data name="insA3" xml:space="preserve">
+    <value>Piano</value>
+  </data>
+  <data name="insA4" xml:space="preserve">
+    <value>Trompeta</value>
+  </data>
+  <data name="insQ" xml:space="preserve">
+    <value>¿Qué instrumento elegirías para la banda sonora de tu vida?</value>
+  </data>
+  <data name="langSelecLabel.Text1" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="patronusA1" xml:space="preserve">
+    <value>Ciervo</value>
+  </data>
+  <data name="patronusA2" xml:space="preserve">
+    <value>Lobo</value>
+  </data>
+  <data name="patronusA3" xml:space="preserve">
+    <value>Liebre</value>
+  </data>
+  <data name="patronusA4" xml:space="preserve">
+    <value>Corza</value>
+  </data>
+  <data name="patronusQ" xml:space="preserve">
+    <value>¿Qué patronus eres?</value>
+  </data>
+  <data name="placeA1" xml:space="preserve">
+    <value>Torre Sur</value>
+  </data>
+  <data name="placeA2" xml:space="preserve">
+    <value>Torre Alta</value>
+  </data>
+  <data name="placeA3" xml:space="preserve">
+    <value>En el Palacio bajo el Lago</value>
+  </data>
+  <data name="placeA4" xml:space="preserve">
+    <value>Sótano cálido</value>
+  </data>
+  <data name="placeQ" xml:space="preserve">
+    <value>¿Dónde quieres vivir?</value>
+  </data>
+  <data name="qdchA1" xml:space="preserve">
+    <value>Buscador(a)</value>
+  </data>
+  <data name="qdchA2" xml:space="preserve">
+    <value>Cazador(a)</value>
+  </data>
+  <data name="qdchA3" xml:space="preserve">
+    <value>Estarás animando en la multitud, apoyando a todos</value>
+  </data>
+  <data name="qdchA4" xml:space="preserve">
+    <value>Golpeador(a)</value>
+  </data>
+  <data name="qdchQ" xml:space="preserve">
+    <value>Has seguido el mundial de Quidditch en las últimas semanas y ahora quieres unirte al equipo de tu casa. ¿En qué posición quieres jugar?</value>
+  </data>
+  <data name="qualityA1" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="qualityA2" xml:space="preserve">
+    <value>Sabiduría</value>
+  </data>
+  <data name="qualityA3" xml:space="preserve">
+    <value>Lealtad</value>
+  </data>
+  <data name="qualityA4" xml:space="preserve">
+    <value>Ambición</value>
+  </data>
+  <data name="qualityQ" xml:space="preserve">
+    <value>¿Qué cualidad valoras más?</value>
+  </data>
+  <data name="signature" xml:space="preserve">
+    <value>Oficina de Admisión de Hogwarts, Colegio de Magia y Hechicería</value>
+  </data>
+  <data name="teaA1" xml:space="preserve">
+    <value>Pudín de Yorkshire con carne asada</value>
+  </data>
+  <data name="teaA2" xml:space="preserve">
+    <value>Sándwiches de salmón</value>
+  </data>
+  <data name="teaA3" xml:space="preserve">
+    <value>Empanadas de calabaza</value>
+  </data>
+  <data name="teaA4" xml:space="preserve">
+    <value>Pastelitos de roca</value>
+  </data>
+  <data name="teaQ" xml:space="preserve">
+    <value>Es una tarde soleada. ¿Qué vas a tomar con el té o café?</value>
+  </data>
+  <data name="this.Text" xml:space="preserve">
+    <value>Sombrero seleccionador</value>
+  </data>
+  <data name="treasureA1" xml:space="preserve">
+    <value>Espada</value>
+  </data>
+  <data name="treasureA2" xml:space="preserve">
+    <value>Diadema</value>
+  </data>
+  <data name="treasureA3" xml:space="preserve">
+    <value>Copa de oro</value>
+  </data>
+  <data name="treasureA4" xml:space="preserve">
+    <value>Diario personal</value>
+  </data>
+  <data name="treasureQ" xml:space="preserve">
+    <value>¿Cuál es tu posesión más preciada?</value>
+  </data>
 </root>
