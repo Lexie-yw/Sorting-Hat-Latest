@@ -152,8 +152,8 @@
   <data name="btnStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="colorA1" xml:space="preserve">
-    <value>Red</value>
+  <data name="button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="qdchA3" xml:space="preserve">
     <value>You’ll be cheering in the crowd, supporting everyone</value>
@@ -190,9 +190,6 @@
   </data>
   <data name="shQuestion.Text" xml:space="preserve">
     <value>Question</value>
-  </data>
-  <data name="insA1" xml:space="preserve">
-    <value>Violin</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>783, 425</value>
@@ -237,6 +234,9 @@
   <data name="teaA2" xml:space="preserve">
     <value>Salmon finger sandwiches</value>
   </data>
+  <data name="teaA1" xml:space="preserve">
+    <value>Yorkshire pudding with roast beef</value>
+  </data>
   <data name="btnStop.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -257,6 +257,9 @@
   </data>
   <data name="&gt;&gt;button3.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="placeA1" xml:space="preserve">
+    <value>Southern Tower</value>
   </data>
   <data name="&gt;&gt;btnStop.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -345,8 +348,8 @@
   <data name="&gt;&gt;langSelecBox.Name" xml:space="preserve">
     <value>langSelecBox</value>
   </data>
-  <data name="button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnPlay.Name" xml:space="preserve">
+    <value>btnPlay</value>
   </data>
   <data name="langSelecBox.Items6" xml:space="preserve">
     <value>日本語</value>
@@ -366,8 +369,8 @@
   <data name="insQ" xml:space="preserve">
     <value>Which instrument would you choose for the soundtrack of your life?</value>
   </data>
-  <data name="button3.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="shQuestion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="patronusA4" xml:space="preserve">
     <value>Doe</value>
@@ -390,6 +393,9 @@
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
     <value>574, 657</value>
   </data>
+  <data name="button3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>111, 552</value>
   </data>
@@ -401,9 +407,6 @@
   </data>
   <data name="langSelecLabel.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
-  </data>
-  <data name="patronusQ" xml:space="preserve">
-    <value>What is your Patronus?</value>
   </data>
   <data name="button1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -420,11 +423,8 @@
   <data name="treasureA2" xml:space="preserve">
     <value>Diadem</value>
   </data>
-  <data name="placeA1" xml:space="preserve">
-    <value>Southern Tower</value>
-  </data>
-  <data name="shQuestion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="treasureA3" xml:space="preserve">
+    <value>Golden cup</value>
   </data>
   <data name="langSelecBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>132, 28</value>
@@ -449,6 +449,9 @@
   </data>
   <data name="&gt;&gt;shQuestion.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="colorA1" xml:space="preserve">
+    <value>Red</value>
   </data>
   <data name="button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -479,9 +482,6 @@
   </data>
   <data name="shQuestion.Name" xml:space="preserve">
     <value>shQuestion</value>
-  </data>
-  <data name="insA3" xml:space="preserve">
-    <value>Piano</value>
   </data>
   <data name="button3.Text" xml:space="preserve">
     <value>button3</value>
@@ -537,9 +537,6 @@
   <data name="colorQ" xml:space="preserve">
     <value>What is your lucky color?</value>
   </data>
-  <data name="teaA1" xml:space="preserve">
-    <value>Yorkshire pudding with roast beef</value>
-  </data>
   <data name="btnPlay.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 28</value>
   </data>
@@ -558,17 +555,14 @@
   <data name="btnPlay.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="treasureA3" xml:space="preserve">
-    <value>Golden cup</value>
+  <data name="button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="langSelecBox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="shQuestion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
-  </data>
-  <data name="houseNameRavenclaw" xml:space="preserve">
-    <value>Ravenclaw</value>
   </data>
   <data name="btnPlay.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 2</value>
@@ -591,9 +585,6 @@
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="insA2" xml:space="preserve">
-    <value>Drums</value>
-  </data>
   <data name="&gt;&gt;button3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -609,14 +600,17 @@
   <data name="placeA2" xml:space="preserve">
     <value>High Tower</value>
   </data>
-  <data name="placeA3" xml:space="preserve">
-    <value>Under Lake Palace</value>
+  <data name="patronusQ" xml:space="preserve">
+    <value>What is your Patronus?</value>
   </data>
   <data name="&gt;&gt;button3.Name" xml:space="preserve">
     <value>button3</value>
   </data>
   <data name="langSelecBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnStop.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;shQuestion.Parent" xml:space="preserve">
     <value>$this</value>
@@ -669,20 +663,20 @@
   <data name="langSelecLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnPlay.Name" xml:space="preserve">
-    <value>btnPlay</value>
+  <data name="houseNameRavenclaw" xml:space="preserve">
+    <value>Ravenclaw</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="insA1" xml:space="preserve">
+    <value>Violin</value>
   </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="insA2" xml:space="preserve">
+    <value>Drums</value>
   </data>
-  <data name="btnPlay.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="insA3" xml:space="preserve">
+    <value>Piano</value>
   </data>
   <data name="insA4" xml:space="preserve">
     <value>Trumpet</value>
@@ -705,8 +699,8 @@
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;btnStop.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="shQuestion.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14.1pt, style=Bold</value>
@@ -750,6 +744,9 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="btnPlay.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="animalA3" xml:space="preserve">
     <value>Badger</value>
   </data>
@@ -761,6 +758,9 @@
   </data>
   <data name="treasureA4" xml:space="preserve">
     <value>Personal diary</value>
+  </data>
+  <data name="placeA3" xml:space="preserve">
+    <value>Under Lake Palace</value>
   </data>
   <data name="courseQ" xml:space="preserve">
     <value>What will be your core course in the first semester?</value>
