@@ -44,9 +44,9 @@
             // 
             // button1
             // 
-            resources.ApplyResources(this.button1, "button1");
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            resources.ApplyResources(this.button1, "button1");
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button1.Name = "button1";
             this.button1.Tag = "1";
@@ -55,16 +55,16 @@
             // 
             // shQuestion
             // 
-            resources.ApplyResources(this.shQuestion, "shQuestion");
             this.shQuestion.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.shQuestion, "shQuestion");
             this.shQuestion.Name = "shQuestion";
             this.shQuestion.Click += new System.EventHandler(this.shQuestion_Click);
             // 
             // button2
             // 
-            resources.ApplyResources(this.button2, "button2");
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            resources.ApplyResources(this.button2, "button2");
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button2.Name = "button2";
             this.button2.Tag = "2";
@@ -73,9 +73,9 @@
             // 
             // button3
             // 
-            resources.ApplyResources(this.button3, "button3");
             this.button3.BackColor = System.Drawing.Color.Black;
             this.button3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            resources.ApplyResources(this.button3, "button3");
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button3.Name = "button3";
             this.button3.Tag = "3";
@@ -84,9 +84,9 @@
             // 
             // button4
             // 
-            resources.ApplyResources(this.button4, "button4");
             this.button4.BackColor = System.Drawing.Color.Black;
             this.button4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            resources.ApplyResources(this.button4, "button4");
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button4.Name = "button4";
             this.button4.Tag = "4";
@@ -109,7 +109,6 @@
             // 
             // langSelecBox
             // 
-            resources.ApplyResources(this.langSelecBox, "langSelecBox");
             this.langSelecBox.FormattingEnabled = true;
             this.langSelecBox.Items.AddRange(new object[] {
             resources.GetString("langSelecBox.Items"),
@@ -119,6 +118,7 @@
             resources.GetString("langSelecBox.Items4"),
             resources.GetString("langSelecBox.Items5"),
             resources.GetString("langSelecBox.Items6")});
+            resources.ApplyResources(this.langSelecBox, "langSelecBox");
             this.langSelecBox.Name = "langSelecBox";
             this.langSelecBox.SelectedIndexChanged += new System.EventHandler(this.langSelecBox_SelectedIndexChanged);
             // 
@@ -129,8 +129,8 @@
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::Sorting_Hat_Final.Properties.Resources.Color;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);

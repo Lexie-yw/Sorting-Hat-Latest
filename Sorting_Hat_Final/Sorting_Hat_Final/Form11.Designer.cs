@@ -199,7 +199,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=856}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=982}.
         /// </summary>
         public static System.Drawing.Point button1_Location {
             get {
@@ -268,7 +268,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1084,Y=856}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1084,Y=982}.
         /// </summary>
         public static System.Drawing.Point button2_Location {
             get {
@@ -337,7 +337,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=1028}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=1154}.
         /// </summary>
         public static System.Drawing.Point button3_Location {
             get {
@@ -406,7 +406,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1084,Y=1018}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1084,Y=1144}.
         /// </summary>
         public static System.Drawing.Point button4_Location {
             get {
@@ -707,7 +707,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=199,Y=742}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=185,Y=743}.
         /// </summary>
         public static System.Drawing.Point shQuestion_Location {
             get {
@@ -727,7 +727,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=1523, Height=110}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=1523, Height=226}.
         /// </summary>
         public static System.Drawing.Size shQuestion_Size {
             get {

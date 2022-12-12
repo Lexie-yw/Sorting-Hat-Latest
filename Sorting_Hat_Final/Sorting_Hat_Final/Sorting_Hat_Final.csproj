@@ -80,9 +80,6 @@
     <EmbeddedResource Include="Form1.es-ES.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.es-x-int-SDL.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.fr-FR.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -100,9 +97,6 @@
       <LastGenOutput>Form11.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.zh-Hans.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.zh-SG.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
