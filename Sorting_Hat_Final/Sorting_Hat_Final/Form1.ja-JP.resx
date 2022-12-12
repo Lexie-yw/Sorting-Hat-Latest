@@ -353,4 +353,19 @@
   <data name="treasureQ" xml:space="preserve">
     <value>あなたの最も貴重な所有物は？</value>
   </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>深紅</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>青</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>緑</value>
+  </data>
+  <data name="shQuestion.Text" xml:space="preserve">
+    <value>あなたのラッキーカラーは？</value>
+  </data>
 </root>

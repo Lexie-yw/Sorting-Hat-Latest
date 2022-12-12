@@ -117,18 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="button1.Text" xml:space="preserve">
+    <value>红色</value>
+  </data>
+  <data name="shQuestion.Text" xml:space="preserve">
+    <value>你最喜欢的颜色是什么？</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>黄色</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>绿色</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="langSelecLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>777, 6</value>
   </data>
   <data name="langSelecLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 20</value>
+    <value>72, 32</value>
   </data>
   <data name="langSelecLabel.Text" xml:space="preserve">
     <value>语言</value>
-  </data>
-  <data name="s" xml:space="preserve">
-    <value>                                                                    </value>
   </data>
   <data name="advA1" xml:space="preserve">
     <value>禁林</value>

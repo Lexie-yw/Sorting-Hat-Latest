@@ -38,14 +38,18 @@ namespace Sorting_Hat_Final
          */
         public Form1()
         {
+            //ResourceManager rm = new ResourceManager(typeof(Form1));
             InitializeComponent();
             AskQuestion(questionNum);
             totalQuestions = 11;
-
             
+
+
+
+
             /*System.Reflection.Assembly a = System.Reflection.Assembly.GetExecutingAssembly();
             System.IO.Stream s = a.GetManifestResourceStream("HarryPotterTheme.wav");*/
-            
+
             /*SoundPlayer audio = new SoundPlayer(Properties.Resources);
             audio.Play();*/
         }
@@ -129,6 +133,12 @@ namespace Sorting_Hat_Final
                     button2.Text = rm.GetString("colorA2");
                     button3.Text = rm.GetString("colorA3");
                     button4.Text = rm.GetString("colorA4");
+
+                    /*shQuestion.Text = rm.GetString("colorQ");
+                    button1.Text = rm.GetString("colorA1");
+                    button2.Text = rm.GetString("colorA2");
+                    button3.Text = rm.GetString("colorA3");
+                    button4.Text = rm.GetString("colorA4");*/
 
                     gryffindor = 1;
                     ravenclaw = 2;
@@ -396,8 +406,8 @@ namespace Sorting_Hat_Final
                     break;
 
                 case 3:
-                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es");
-                    Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("es");
+                    Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("es-ES");
+                    Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("es-ES");
                     break;
 
                 case 4:
@@ -419,6 +429,10 @@ namespace Sorting_Hat_Final
             InitializeComponent();
         }
 
+        private void shQuestion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

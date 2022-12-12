@@ -353,4 +353,19 @@
   <data name="treasureQ" xml:space="preserve">
     <value>Was ist dein wertvollster Besitz?</value>
   </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Rot</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Blau</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Gelb</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>Grün</value>
+  </data>
+  <data name="shQuestion.Text" xml:space="preserve">
+    <value>Was ist deine Glücksfarbe?</value>
+  </data>
 </root>

@@ -61,96 +61,6 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Forbidden Forest.
-        /// </summary>
-        public static string advA1 {
-            get {
-                return ResourceManager.GetString("advA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Library.
-        /// </summary>
-        public static string advA2 {
-            get {
-                return ResourceManager.GetString("advA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Kitchen.
-        /// </summary>
-        public static string advA3 {
-            get {
-                return ResourceManager.GetString("advA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Room of Requirement.
-        /// </summary>
-        public static string advA4 {
-            get {
-                return ResourceManager.GetString("advA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Coming from MIIS, Hogwarts is a whole different school: you have free time on Sunday. Where do you go?.
-        /// </summary>
-        public static string advQ {
-            get {
-                return ResourceManager.GetString("advQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Lion.
-        /// </summary>
-        public static string animalA1 {
-            get {
-                return ResourceManager.GetString("animalA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Eagle.
-        /// </summary>
-        public static string animalA2 {
-            get {
-                return ResourceManager.GetString("animalA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Badger.
-        /// </summary>
-        public static string animalA3 {
-            get {
-                return ResourceManager.GetString("animalA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Snake.
-        /// </summary>
-        public static string animalA4 {
-            get {
-                return ResourceManager.GetString("animalA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to What is your favorite animal companion?.
-        /// </summary>
-        public static string animalQ {
-            get {
-                return ResourceManager.GetString("animalQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Windows.Forms.ImeMode similar to NoControl.
         /// </summary>
         public static System.Windows.Forms.ImeMode btnPlay_ImeMode {
@@ -161,7 +71,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=4,Y=2}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=7,Y=3}.
         /// </summary>
         public static System.Drawing.Point btnPlay_Location {
             get {
@@ -171,25 +81,17 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to btnPlay.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=5,Top=5,Right=5,Bottom=5}.
         /// </summary>
-        public static string btnPlay_Name {
+        public static System.Windows.Forms.Padding btnPlay_Margin {
             get {
-                return ResourceManager.GetString("btnPlay.Name", resourceCulture);
+                object obj = ResourceManager.GetObject("btnPlay.Margin", resourceCulture);
+                return ((System.Windows.Forms.Padding)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string btnPlay_Parent {
-            get {
-                return ResourceManager.GetString("btnPlay.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=52, Height=28}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=98, Height=43}.
         /// </summary>
         public static System.Drawing.Size btnPlay_Size {
             get {
@@ -218,24 +120,6 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
-        /// </summary>
-        public static string btnPlay_Type {
-            get {
-                return ResourceManager.GetString("btnPlay.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 3.
-        /// </summary>
-        public static string btnPlay_ZOrder {
-            get {
-                return ResourceManager.GetString("btnPlay.ZOrder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Windows.Forms.ImeMode similar to NoControl.
         /// </summary>
         public static System.Windows.Forms.ImeMode btnStop_ImeMode {
@@ -246,7 +130,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=62,Y=2}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=117,Y=3}.
         /// </summary>
         public static System.Drawing.Point btnStop_Location {
             get {
@@ -256,25 +140,17 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to btnStop.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=5,Top=5,Right=5,Bottom=5}.
         /// </summary>
-        public static string btnStop_Name {
+        public static System.Windows.Forms.Padding btnStop_Margin {
             get {
-                return ResourceManager.GetString("btnStop.Name", resourceCulture);
+                object obj = ResourceManager.GetObject("btnStop.Margin", resourceCulture);
+                return ((System.Windows.Forms.Padding)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string btnStop_Parent {
-            get {
-                return ResourceManager.GetString("btnStop.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=52, Height=28}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=98, Height=43}.
         /// </summary>
         public static System.Drawing.Size btnStop_Size {
             get {
@@ -303,20 +179,12 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
-        public static string btnStop_Type {
+        public static System.Drawing.Font button1_Font {
             get {
-                return ResourceManager.GetString("btnStop.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 2.
-        /// </summary>
-        public static string btnStop_ZOrder {
-            get {
-                return ResourceManager.GetString("btnStop.ZOrder", resourceCulture);
+                object obj = ResourceManager.GetObject("button1.Font", resourceCulture);
+                return ((System.Drawing.Font)(obj));
             }
         }
         
@@ -331,7 +199,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=111,Y=552}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=856}.
         /// </summary>
         public static System.Drawing.Point button1_Location {
             get {
@@ -341,7 +209,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=2,Top=2,Right=2,Bottom=2}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
         /// </summary>
         public static System.Windows.Forms.Padding button1_Margin {
             get {
@@ -351,25 +219,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to button1.
-        /// </summary>
-        public static string button1_Name {
-            get {
-                return ResourceManager.GetString("button1.Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string button1_Parent {
-            get {
-                return ResourceManager.GetString("button1.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=320, Height=82}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=605, Height=127}.
         /// </summary>
         public static System.Drawing.Size button1_Size {
             get {
@@ -398,20 +248,12 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
-        public static string button1_Type {
+        public static System.Drawing.Font button2_Font {
             get {
-                return ResourceManager.GetString("button1.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 8.
-        /// </summary>
-        public static string button1_ZOrder {
-            get {
-                return ResourceManager.GetString("button1.ZOrder", resourceCulture);
+                object obj = ResourceManager.GetObject("button2.Font", resourceCulture);
+                return ((System.Drawing.Font)(obj));
             }
         }
         
@@ -426,7 +268,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=574,Y=552}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1084,Y=856}.
         /// </summary>
         public static System.Drawing.Point button2_Location {
             get {
@@ -436,7 +278,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=2,Top=2,Right=2,Bottom=2}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
         /// </summary>
         public static System.Windows.Forms.Padding button2_Margin {
             get {
@@ -446,25 +288,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to button2.
-        /// </summary>
-        public static string button2_Name {
-            get {
-                return ResourceManager.GetString("button2.Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string button2_Parent {
-            get {
-                return ResourceManager.GetString("button2.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=320, Height=82}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=605, Height=127}.
         /// </summary>
         public static System.Drawing.Size button2_Size {
             get {
@@ -493,20 +317,12 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
-        public static string button2_Type {
+        public static System.Drawing.Font button3_Font {
             get {
-                return ResourceManager.GetString("button2.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 6.
-        /// </summary>
-        public static string button2_ZOrder {
-            get {
-                return ResourceManager.GetString("button2.ZOrder", resourceCulture);
+                object obj = ResourceManager.GetObject("button3.Font", resourceCulture);
+                return ((System.Drawing.Font)(obj));
             }
         }
         
@@ -521,7 +337,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=111,Y=663}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=1028}.
         /// </summary>
         public static System.Drawing.Point button3_Location {
             get {
@@ -531,7 +347,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=2,Top=2,Right=2,Bottom=2}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
         /// </summary>
         public static System.Windows.Forms.Padding button3_Margin {
             get {
@@ -541,25 +357,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to button3.
-        /// </summary>
-        public static string button3_Name {
-            get {
-                return ResourceManager.GetString("button3.Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string button3_Parent {
-            get {
-                return ResourceManager.GetString("button3.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=320, Height=82}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=605, Height=127}.
         /// </summary>
         public static System.Drawing.Size button3_Size {
             get {
@@ -588,20 +386,12 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
-        public static string button3_Type {
+        public static System.Drawing.Font button4_Font {
             get {
-                return ResourceManager.GetString("button3.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 5.
-        /// </summary>
-        public static string button3_ZOrder {
-            get {
-                return ResourceManager.GetString("button3.ZOrder", resourceCulture);
+                object obj = ResourceManager.GetObject("button4.Font", resourceCulture);
+                return ((System.Drawing.Font)(obj));
             }
         }
         
@@ -616,7 +406,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=574,Y=657}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1084,Y=1018}.
         /// </summary>
         public static System.Drawing.Point button4_Location {
             get {
@@ -626,7 +416,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=2,Top=2,Right=2,Bottom=2}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
         /// </summary>
         public static System.Windows.Forms.Padding button4_Margin {
             get {
@@ -636,25 +426,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to button4.
-        /// </summary>
-        public static string button4_Name {
-            get {
-                return ResourceManager.GetString("button4.Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string button4_Parent {
-            get {
-                return ResourceManager.GetString("button4.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=320, Height=82}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=605, Height=127}.
         /// </summary>
         public static System.Drawing.Size button4_Size {
             get {
@@ -679,222 +451,6 @@ namespace Sorting_Hat_Final {
         public static string button4_Text {
             get {
                 return ResourceManager.GetString("button4.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
-        /// </summary>
-        public static string button4_Type {
-            get {
-                return ResourceManager.GetString("button4.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 4.
-        /// </summary>
-        public static string button4_ZOrder {
-            get {
-                return ResourceManager.GetString("button4.ZOrder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Red.
-        /// </summary>
-        public static string colorA1 {
-            get {
-                return ResourceManager.GetString("colorA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Blue.
-        /// </summary>
-        public static string colorA2 {
-            get {
-                return ResourceManager.GetString("colorA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Yellow.
-        /// </summary>
-        public static string colorA3 {
-            get {
-                return ResourceManager.GetString("colorA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Green.
-        /// </summary>
-        public static string colorA4 {
-            get {
-                return ResourceManager.GetString("colorA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to What is your lucky color?.
-        /// </summary>
-        public static string colorQ {
-            get {
-                return ResourceManager.GetString("colorQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Defense against the Dark Arts.
-        /// </summary>
-        public static string courseA1 {
-            get {
-                return ResourceManager.GetString("courseA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Charms.
-        /// </summary>
-        public static string courseA2 {
-            get {
-                return ResourceManager.GetString("courseA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Care of Magic Creatures.
-        /// </summary>
-        public static string courseA3 {
-            get {
-                return ResourceManager.GetString("courseA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Potions.
-        /// </summary>
-        public static string courseA4 {
-            get {
-                return ResourceManager.GetString("courseA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to What will be your core course in the first semester?.
-        /// </summary>
-        public static string courseQ {
-            get {
-                return ResourceManager.GetString("courseQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Congratulations! You are now a student of .
-        /// </summary>
-        public static string enrollmentCongrats {
-            get {
-                return ResourceManager.GetString("enrollmentCongrats", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Enrollment Date: .
-        /// </summary>
-        public static string enrollmentDateIntro {
-            get {
-                return ResourceManager.GetString("enrollmentDateIntro", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Best, .
-        /// </summary>
-        public static string enrollmentGreeting {
-            get {
-                return ResourceManager.GetString("enrollmentGreeting", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Gryffindor.
-        /// </summary>
-        public static string houseNameGryffindor {
-            get {
-                return ResourceManager.GetString("houseNameGryffindor", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to HufflePuff.
-        /// </summary>
-        public static string houseNameHufflePuff {
-            get {
-                return ResourceManager.GetString("houseNameHufflePuff", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Ravenclaw.
-        /// </summary>
-        public static string houseNameRavenclaw {
-            get {
-                return ResourceManager.GetString("houseNameRavenclaw", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Slytherin.
-        /// </summary>
-        public static string houseNameSlytherin {
-            get {
-                return ResourceManager.GetString("houseNameSlytherin", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Violin.
-        /// </summary>
-        public static string insA1 {
-            get {
-                return ResourceManager.GetString("insA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Drums.
-        /// </summary>
-        public static string insA2 {
-            get {
-                return ResourceManager.GetString("insA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Piano.
-        /// </summary>
-        public static string insA3 {
-            get {
-                return ResourceManager.GetString("insA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Trumpet.
-        /// </summary>
-        public static string insA4 {
-            get {
-                return ResourceManager.GetString("insA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Which instrument would you choose for the soundtrack of your life?.
-        /// </summary>
-        public static string insQ {
-            get {
-                return ResourceManager.GetString("insQ", resourceCulture);
             }
         }
         
@@ -962,7 +518,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=824,Y=2}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1557,Y=3}.
         /// </summary>
         public static System.Drawing.Point langSelecBox_Location {
             get {
@@ -972,25 +528,17 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to langSelecBox.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=5,Top=5,Right=5,Bottom=5}.
         /// </summary>
-        public static string langSelecBox_Name {
+        public static System.Windows.Forms.Padding langSelecBox_Margin {
             get {
-                return ResourceManager.GetString("langSelecBox.Name", resourceCulture);
+                object obj = ResourceManager.GetObject("langSelecBox.Margin", resourceCulture);
+                return ((System.Windows.Forms.Padding)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string langSelecBox_Parent {
-            get {
-                return ResourceManager.GetString("langSelecBox.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=132, Height=28}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=246, Height=39}.
         /// </summary>
         public static System.Drawing.Size langSelecBox_Size {
             get {
@@ -1006,24 +554,6 @@ namespace Sorting_Hat_Final {
             get {
                 object obj = ResourceManager.GetObject("langSelecBox.TabIndex", resourceCulture);
                 return ((int)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
-        /// </summary>
-        public static string langSelecBox_Type {
-            get {
-                return ResourceManager.GetString("langSelecBox.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1.
-        /// </summary>
-        public static string langSelecBox_ZOrder {
-            get {
-                return ResourceManager.GetString("langSelecBox.ZOrder", resourceCulture);
             }
         }
         
@@ -1048,7 +578,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=737,Y=6}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1392,Y=9}.
         /// </summary>
         public static System.Drawing.Point langSelecLabel_Location {
             get {
@@ -1058,25 +588,17 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to langSelecLabel.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=5,Top=0,Right=5,Bottom=0}.
         /// </summary>
-        public static string langSelecLabel_Name {
+        public static System.Windows.Forms.Padding langSelecLabel_Margin {
             get {
-                return ResourceManager.GetString("langSelecLabel.Name", resourceCulture);
+                object obj = ResourceManager.GetObject("langSelecLabel.Margin", resourceCulture);
+                return ((System.Windows.Forms.Padding)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string langSelecLabel_Parent {
-            get {
-                return ResourceManager.GetString("langSelecLabel.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=81, Height=20}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=150, Height=32}.
         /// </summary>
         public static System.Drawing.Size langSelecLabel_Size {
             get {
@@ -1105,69 +627,6 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
-        /// </summary>
-        public static string langSelecLabel_Type {
-            get {
-                return ResourceManager.GetString("langSelecLabel.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 0.
-        /// </summary>
-        public static string langSelecLabel_ZOrder {
-            get {
-                return ResourceManager.GetString("langSelecLabel.ZOrder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Stag.
-        /// </summary>
-        public static string patronusA1 {
-            get {
-                return ResourceManager.GetString("patronusA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Wolf .
-        /// </summary>
-        public static string patronusA2 {
-            get {
-                return ResourceManager.GetString("patronusA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Hare.
-        /// </summary>
-        public static string patronusA3 {
-            get {
-                return ResourceManager.GetString("patronusA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Doe.
-        /// </summary>
-        public static string patronusA4 {
-            get {
-                return ResourceManager.GetString("patronusA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to What is your Patronus?.
-        /// </summary>
-        public static string patronusQ {
-            get {
-                return ResourceManager.GetString("patronusQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Windows.Forms.ImeMode similar to NoControl.
         /// </summary>
         public static System.Windows.Forms.ImeMode pictureBox1_ImeMode {
@@ -1178,7 +637,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=111,Y=52}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=81}.
         /// </summary>
         public static System.Drawing.Point pictureBox1_Location {
             get {
@@ -1188,7 +647,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=2,Top=2,Right=2,Bottom=2}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
         /// </summary>
         public static System.Windows.Forms.Padding pictureBox1_Margin {
             get {
@@ -1198,25 +657,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to pictureBox1.
-        /// </summary>
-        public static string pictureBox1_Name {
-            get {
-                return ResourceManager.GetString("pictureBox1.Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string pictureBox1_Parent {
-            get {
-                return ResourceManager.GetString("pictureBox1.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=783, Height=425}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=1479, Height=659}.
         /// </summary>
         public static System.Drawing.Size pictureBox1_Size {
             get {
@@ -1246,159 +687,6 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
-        /// </summary>
-        public static string pictureBox1_Type {
-            get {
-                return ResourceManager.GetString("pictureBox1.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 9.
-        /// </summary>
-        public static string pictureBox1_ZOrder {
-            get {
-                return ResourceManager.GetString("pictureBox1.ZOrder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Southern Tower.
-        /// </summary>
-        public static string placeA1 {
-            get {
-                return ResourceManager.GetString("placeA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to High Tower.
-        /// </summary>
-        public static string placeA2 {
-            get {
-                return ResourceManager.GetString("placeA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Under Lake Palace.
-        /// </summary>
-        public static string placeA3 {
-            get {
-                return ResourceManager.GetString("placeA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Warm Basement.
-        /// </summary>
-        public static string placeA4 {
-            get {
-                return ResourceManager.GetString("placeA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Where do you want to live?.
-        /// </summary>
-        public static string placeQ {
-            get {
-                return ResourceManager.GetString("placeQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Seeker.
-        /// </summary>
-        public static string qdchA1 {
-            get {
-                return ResourceManager.GetString("qdchA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Chaser.
-        /// </summary>
-        public static string qdchA2 {
-            get {
-                return ResourceManager.GetString("qdchA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to You’ll be cheering in the crowd, supporting everyone.
-        /// </summary>
-        public static string qdchA3 {
-            get {
-                return ResourceManager.GetString("qdchA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Beater.
-        /// </summary>
-        public static string qdchA4 {
-            get {
-                return ResourceManager.GetString("qdchA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to You’ve followed the Quidditch world cup in the past weeks and now you want to join your house’s team. Which position do you want to play?.
-        /// </summary>
-        public static string qdchQ {
-            get {
-                return ResourceManager.GetString("qdchQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Courage.
-        /// </summary>
-        public static string qualityA1 {
-            get {
-                return ResourceManager.GetString("qualityA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Wisdom.
-        /// </summary>
-        public static string qualityA2 {
-            get {
-                return ResourceManager.GetString("qualityA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Loyalty.
-        /// </summary>
-        public static string qualityA3 {
-            get {
-                return ResourceManager.GetString("qualityA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Ambition.
-        /// </summary>
-        public static string qualityA4 {
-            get {
-                return ResourceManager.GetString("qualityA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Which quality do you value the most?.
-        /// </summary>
-        public static string qualityQ {
-            get {
-                return ResourceManager.GetString("qualityQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=14.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
         public static System.Drawing.Font shQuestion_Font {
@@ -1419,7 +707,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=105,Y=479}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=199,Y=742}.
         /// </summary>
         public static System.Drawing.Point shQuestion_Location {
             get {
@@ -1429,7 +717,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=2,Top=0,Right=2,Bottom=0}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=0,Right=4,Bottom=0}.
         /// </summary>
         public static System.Windows.Forms.Padding shQuestion_Margin {
             get {
@@ -1439,25 +727,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to shQuestion.
-        /// </summary>
-        public static string shQuestion_Name {
-            get {
-                return ResourceManager.GetString("shQuestion.Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to $this.
-        /// </summary>
-        public static string shQuestion_Parent {
-            get {
-                return ResourceManager.GetString("shQuestion.Parent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=806, Height=71}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=1523, Height=110}.
         /// </summary>
         public static System.Drawing.Size shQuestion_Size {
             get {
@@ -1492,150 +762,6 @@ namespace Sorting_Hat_Final {
             get {
                 object obj = ResourceManager.GetObject("shQuestion.TextAlign", resourceCulture);
                 return ((System.Drawing.ContentAlignment)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
-        /// </summary>
-        public static string shQuestion_Type {
-            get {
-                return ResourceManager.GetString("shQuestion.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 7.
-        /// </summary>
-        public static string shQuestion_ZOrder {
-            get {
-                return ResourceManager.GetString("shQuestion.ZOrder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Admission Office of Hogwarts, School of Witchcraft and Wizardry.
-        /// </summary>
-        public static string signature {
-            get {
-                return ResourceManager.GetString("signature", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Yorkshire pudding with roast beef.
-        /// </summary>
-        public static string teaA1 {
-            get {
-                return ResourceManager.GetString("teaA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Salmon finger sandwiches.
-        /// </summary>
-        public static string teaA2 {
-            get {
-                return ResourceManager.GetString("teaA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Pumpkin pasties.
-        /// </summary>
-        public static string teaA3 {
-            get {
-                return ResourceManager.GetString("teaA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Rock cakes.
-        /// </summary>
-        public static string teaA4 {
-            get {
-                return ResourceManager.GetString("teaA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to It’s a sunny afternoon. What will you have with your tea?.
-        /// </summary>
-        public static string teaQ {
-            get {
-                return ResourceManager.GetString("teaQ", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Form1.
-        /// </summary>
-        public static string this_Name {
-            get {
-                return ResourceManager.GetString("this.Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sorting Hat.
-        /// </summary>
-        public static string this_Text {
-            get {
-                return ResourceManager.GetString("this.Text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089.
-        /// </summary>
-        public static string this_Type {
-            get {
-                return ResourceManager.GetString("this.Type", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sword.
-        /// </summary>
-        public static string treasureA1 {
-            get {
-                return ResourceManager.GetString("treasureA1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Diadem.
-        /// </summary>
-        public static string treasureA2 {
-            get {
-                return ResourceManager.GetString("treasureA2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Golden cup.
-        /// </summary>
-        public static string treasureA3 {
-            get {
-                return ResourceManager.GetString("treasureA3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Personal diary.
-        /// </summary>
-        public static string treasureA4 {
-            get {
-                return ResourceManager.GetString("treasureA4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to What’s your most precious possession?.
-        /// </summary>
-        public static string treasureQ {
-            get {
-                return ResourceManager.GetString("treasureQ", resourceCulture);
             }
         }
     }
