@@ -388,11 +388,11 @@
     <value>NoControl</value>
   </data>
   <data name="langSelecLabel.Location" type="System.Drawing.Point, System.Drawing">
-<<<<<<< HEAD
+
     <value>1397, 6</value>
-=======
+
     <value>1146, 8</value>
->>>>>>> e4289c06ae00781c111a1932644786a45fddd4dc
+
   </data>
   <data name="langSelecLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
