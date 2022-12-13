@@ -206,7 +206,7 @@
     <value>恭喜！你已被录取到</value>
   </data>
   <data name="enrollmentDateIntro" xml:space="preserve">
-    <value>注册日期：</value>
+    <value>录取日期：</value>
   </data>
   <data name="enrollmentGreeting" xml:space="preserve">
     <value>真挚问候</value>

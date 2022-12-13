@@ -578,7 +578,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1392,Y=9}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1397,Y=6}.
         /// </summary>
         public static System.Drawing.Point langSelecLabel_Location {
             get {
