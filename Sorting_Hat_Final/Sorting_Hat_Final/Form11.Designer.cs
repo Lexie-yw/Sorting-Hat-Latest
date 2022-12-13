@@ -71,7 +71,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=7,Y=3}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=6,Y=3}.
         /// </summary>
         public static System.Drawing.Point btnPlay_Location {
             get {
@@ -81,7 +81,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=5,Top=5,Right=5,Bottom=5}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
         /// </summary>
         public static System.Windows.Forms.Padding btnPlay_Margin {
             get {
@@ -91,7 +91,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=98, Height=43}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=81, Height=36}.
         /// </summary>
         public static System.Drawing.Size btnPlay_Size {
             get {
@@ -130,7 +130,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=117,Y=3}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=96,Y=3}.
         /// </summary>
         public static System.Drawing.Point btnStop_Location {
             get {
@@ -140,7 +140,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=5,Top=5,Right=5,Bottom=5}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
         /// </summary>
         public static System.Windows.Forms.Padding btnStop_Margin {
             get {
@@ -150,7 +150,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=98, Height=43}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=81, Height=36}.
         /// </summary>
         public static System.Drawing.Size btnStop_Size {
             get {
@@ -179,7 +179,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Xéfora, Size=7.875, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
         public static System.Drawing.Font button1_Font {
             get {
@@ -199,7 +199,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=982}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=172,Y=824}.
         /// </summary>
         public static System.Drawing.Point button1_Location {
             get {
@@ -209,17 +209,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
-        /// </summary>
-        public static System.Windows.Forms.Padding button1_Margin {
-            get {
-                object obj = ResourceManager.GetObject("button1.Margin", resourceCulture);
-                return ((System.Windows.Forms.Padding)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=605, Height=127}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=498, Height=107}.
         /// </summary>
         public static System.Drawing.Size button1_Size {
             get {
@@ -248,7 +238,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Xéfora, Size=7.875, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
         public static System.Drawing.Font button2_Font {
             get {
@@ -268,7 +258,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1084,Y=982}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=893,Y=824}.
         /// </summary>
         public static System.Drawing.Point button2_Location {
             get {
@@ -278,17 +268,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
-        /// </summary>
-        public static System.Windows.Forms.Padding button2_Margin {
-            get {
-                object obj = ResourceManager.GetObject("button2.Margin", resourceCulture);
-                return ((System.Windows.Forms.Padding)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=605, Height=127}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=498, Height=107}.
         /// </summary>
         public static System.Drawing.Size button2_Size {
             get {
@@ -317,7 +297,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Xéfora, Size=7.875, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
         public static System.Drawing.Font button3_Font {
             get {
@@ -337,7 +317,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=1154}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=172,Y=968}.
         /// </summary>
         public static System.Drawing.Point button3_Location {
             get {
@@ -347,17 +327,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
-        /// </summary>
-        public static System.Windows.Forms.Padding button3_Margin {
-            get {
-                object obj = ResourceManager.GetObject("button3.Margin", resourceCulture);
-                return ((System.Windows.Forms.Padding)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=605, Height=127}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=498, Height=107}.
         /// </summary>
         public static System.Drawing.Size button3_Size {
             get {
@@ -386,7 +356,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=8.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Xéfora, Size=7.875, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
         public static System.Drawing.Font button4_Font {
             get {
@@ -406,7 +376,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1084,Y=1144}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=893,Y=959}.
         /// </summary>
         public static System.Drawing.Point button4_Location {
             get {
@@ -416,17 +386,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
-        /// </summary>
-        public static System.Windows.Forms.Padding button4_Margin {
-            get {
-                object obj = ResourceManager.GetObject("button4.Margin", resourceCulture);
-                return ((System.Windows.Forms.Padding)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=605, Height=127}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=498, Height=107}.
         /// </summary>
         public static System.Drawing.Size button4_Size {
             get {
@@ -518,7 +478,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1557,Y=3}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1282,Y=3}.
         /// </summary>
         public static System.Drawing.Point langSelecBox_Location {
             get {
@@ -528,7 +488,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=5,Top=5,Right=5,Bottom=5}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=4,Right=4,Bottom=4}.
         /// </summary>
         public static System.Windows.Forms.Padding langSelecBox_Margin {
             get {
@@ -538,7 +498,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=246, Height=39}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=203, Height=34}.
         /// </summary>
         public static System.Drawing.Size langSelecBox_Size {
             get {
@@ -568,6 +528,16 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Xéfora, Size=7.875, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        /// </summary>
+        public static System.Drawing.Font langSelecLabel_Font {
+            get {
+                object obj = ResourceManager.GetObject("langSelecLabel.Font", resourceCulture);
+                return ((System.Drawing.Font)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Windows.Forms.ImeMode similar to NoControl.
         /// </summary>
         public static System.Windows.Forms.ImeMode langSelecLabel_ImeMode {
@@ -578,7 +548,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1392,Y=9}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=1146,Y=8}.
         /// </summary>
         public static System.Drawing.Point langSelecLabel_Location {
             get {
@@ -588,7 +558,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=5,Top=0,Right=5,Bottom=0}.
+        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=0,Right=4,Bottom=0}.
         /// </summary>
         public static System.Windows.Forms.Padding langSelecLabel_Margin {
             get {
@@ -598,7 +568,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=150, Height=32}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=91, Height=29}.
         /// </summary>
         public static System.Drawing.Size langSelecLabel_Size {
             get {
@@ -637,7 +607,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=209,Y=81}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=172,Y=68}.
         /// </summary>
         public static System.Drawing.Point pictureBox1_Location {
             get {
@@ -647,17 +617,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=3,Right=4,Bottom=3}.
-        /// </summary>
-        public static System.Windows.Forms.Padding pictureBox1_Margin {
-            get {
-                object obj = ResourceManager.GetObject("pictureBox1.Margin", resourceCulture);
-                return ((System.Windows.Forms.Padding)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=1479, Height=659}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=1218, Height=553}.
         /// </summary>
         public static System.Drawing.Size pictureBox1_Size {
             get {
@@ -687,7 +647,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Microsoft Sans Serif, Size=14.1, Units=3, GdiCharSet=1, GdiVerticalFont=False].
+        ///   Looks up a localized resource of type System.Drawing.Font similar to [Font: Name=Xéfora, Size=13.875, Units=3, GdiCharSet=1, GdiVerticalFont=False].
         /// </summary>
         public static System.Drawing.Font shQuestion_Font {
             get {
@@ -707,7 +667,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=185,Y=743}.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=152,Y=623}.
         /// </summary>
         public static System.Drawing.Point shQuestion_Location {
             get {
@@ -717,17 +677,7 @@ namespace Sorting_Hat_Final {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Windows.Forms.Padding similar to {Left=4,Top=0,Right=4,Bottom=0}.
-        /// </summary>
-        public static System.Windows.Forms.Padding shQuestion_Margin {
-            get {
-                object obj = ResourceManager.GetObject("shQuestion.Margin", resourceCulture);
-                return ((System.Windows.Forms.Padding)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=1523, Height=226}.
+        ///   Looks up a localized resource of type System.Drawing.Size similar to {Width=1254, Height=190}.
         /// </summary>
         public static System.Drawing.Size shQuestion_Size {
             get {
