@@ -13,7 +13,7 @@ The Sorting Hat game was created and localized by three grad students (see below
 |zhiqingw@middlebury.edu, zhiqingwu1998@gmail.com |yw2@middlebury.edu, lexieyww@gmail.com|mgrasmenil@middlebury.edu, maud.grasmenil@gmail.com|
 
 <!---
-Note: This project is the final course project for Software Internationalization and Localization, taught by Professor David Mohr (bear.pup.sj@gmail.com).
+Note: This project is the final course project for Software Internationalization and Localization, taught by Professor David Mohr (dmohr@middlebury.edu).
 -->
 [names listed follow the alphabetical order]
 
@@ -28,49 +28,66 @@ Hogwarts School of Witchcraft and Wizardry has four houses: Gryffindor, Slytheri
 There will be 11 multiple-choice questions, testing users on their interests, hobbies, characters, etc. Based on their answers, a result will be generated through calculation, telling the user which house they will enter.
 
 ### External Resource Referenced
-Development Related: https://www.mooict.com/c-tutorial-create-a-simple-multiple-choice-quiz-game-in-visual-studio/
-Content Related: https://harrypotter.fandom.com/wiki/Harry_Potter
-Image Assets: https://unsplash.com/
+- Development Related: https://www.mooict.com/c-tutorial-create-a-simple-multiple-choice-quiz-game-in-visual-studio/
+- Content Related: https://harrypotter.fandom.com/wiki/Harry_Potter
+- Image Assets: https://unsplash.com/
 
 ## Product Development 
 [Engineering: Game Source Code]:
 Generally, a quiz only has one result, the correct rate (External Resource Referenced). However, in our quiz game, based on users’ answers, they will be assigned one result from four possible results. To implement this, the code logic is indicated below:
 
 Each question has four choices, and each choice is related to a house at Hogwarts. We assign each choice with a label (Gryffindor, Slytherin, Ravenclaw, and Hufflepuff). Then when we store the answer to an array, we do not store the actual string of choice, we store the label. After the user completes the quiz, we will calculate which label (house) in the array has the highest frequency, then we can assign the user to that house.
+<div>
+  <img src="./README assets/Code example.png">
+  <p>Code example: storing the label into an array.</p>
+  <img src="./README assets/Non-localized product1.png" width="450" 
+     height="400">
+  <img src="./README assets/Non-localized product1.png" width="450" 
+     height="400">
+  <p>The completed non-localized project.</p>
+</div>
 
-
-Code example: storing the label into an array.
-
-
-The completed non-localized project.
 ## Project Management
 ### Work Log:
 There are mainly four development stages: Ideation, Game Development [Source Code], Internationalization, and Localization. We created a product development plan [Progress Tracker] to follow and met five times either in person or online to complete the project. 
-
-Product development plan and work log.
+<div>
+  <img src="./README assets/Product development plan.png" height="500" width="500"> 
+  <img src="./README assets/worklog.png" height="300" width="300">
+  <p>Product development plan and work log.</p>
+</div>
 
 ### Localization File Management:
 Good management of assets is a must for successful localization. Sorting Hat has three types of assets regarding localization: Media, Source Text, and Translations. To make sure those assets are well organized and easily accessible, they were well categorized and put into three different folders on Google Drive. 
-
-Google Drive folder structure and assets under Media folder.
+<div>
+  <img src="./README assets/Drive folder structure.png" height="500" width="500">
+  <img src="./README assets/Media folder.png height="300" width="300"">
+  <p>Google Drive folder structure and assets under Media folder.</p>
+</div>
 
 ### Tools:
 To ensure smooth collaboration between product, engineering, and the localization team, we used Visual Studio Community & GitHub for code development, Google drive for general file management, Whatsapp for progress updates and debugging chat, and Zoom for online meetings.
-
-GitHub repository for the Sorting Hat game.
+<div>
+  <img src="README assets/Git Repo.png height="500" width="500">
+  <p>GitHub repository for the Sorting Hat game.</p>
+</div>
 
 ## Internationalization
 Localization starts at the earliest stage of a game’s development. In that regard, the .NET framework made app internationalization rather easy. Once the windows form was properly internationalized, we only had to add text in the different resource files.
 ### Engineering
 1) We created a language switcher: with a list of the different languages. To the Dropdown list, a function is assigned that first gets the cultural info of the selected locale (Switch/case), applies it (CurrentCulture & CurrentUICulture), then clears and reinitializes the form. The CultureInfo object allowed us to adapt some cultural elements to the target locale, such as the date format used in the final text.
+<div>
+  <img src="README assets/Language Switcher.png">
+  <p>Code example: language switcher.</p>
+</div>
 
-Code example: language switcher.
 
 2) Internationalization can be done in the Form properties (Designer.cs, “Localizable”: True). Switching from default to the different locales automatically creates new resource files for each locale, in which we can put the variables and their corresponding strings.
 
 3) String externalization was then implemented in the code by creating variables instead of strings (getting attributed strings in resource files) and avoiding concatenation. 
-
-Externalized strings in the en-US resource file.
+<div>
+  <img src="README assets/Externalized Strings.png">
+  <p>Externalized strings in the en-US resource file.</p>
+</div>
 
 ### Design internationalization 
 Other elements had to be taken into consideration in the internationalization process. 
@@ -91,14 +108,17 @@ One challenge in the design process is to choose the proper colors for the answe
 
 ### Font Selection
 Building upon the previous section, another aspect in the general UI design process of this game involves finding a font that further highlights the style. In this case, the font for the Latin-script alphabet that we chose after careful consideration is Xéfora, which is modeled after the font style of Harry Potter movie posters. As mentioned earlier, we adopted the Unicode standard to include the characters needed for the languages that we localized into. So, another criterion for font selection for us was to choose one that contains all characters needed, along with essential accent marks for Spanish, French, and German. On the other hand, as for the two CCJK, or C(hinese) J(apanese) languages we chose, we encountered similar problems when selecting fonts. Though one font named Oriental was shortlisted for Japanese, it only supports one out of three Japanese writing systems. Therefore, we decided to leave the Chinese and Japanese versions of our game in the default font.
-
-The Sorting Hat game UI localized into German and Spanish.
+<div>
+  <img src="README assets/German UI.png" width="500" 
+     height="350">
+  <img src="README assets/Spanish UI.png" width="500" 
+     height="350">
+  <p>The Sorting Hat game UI localized into German and Spanish.</p>
+</div>
 
 Circling back to the chosen font, although it works for all of the non-CCJK versions of our game, the font is yet to be embedded, meaning that it only shows when the operating system has Xéfora installed. A demo of the game with the stylized font is shown below.
 
 Another problem, and perhaps the most critical one, that we encountered during font implementation was the limitation of Visual Studio with font types. First of all, Visual Studio only supports TrueType fonts (TTF), so OpenType fonts are to be avoided for similar projects in the future.
-
-Error message from Visual Studio.
 
 ## Localization
 For localization, the challenge that was apparent throughout the process is foreignization versus domestication.
