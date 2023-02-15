@@ -60,14 +60,14 @@ There are mainly four development stages: Ideation, Game Development [Source Cod
 Good management of assets is a must for successful localization. Sorting Hat has three types of assets regarding localization: Media, Source Text, and Translations. To make sure those assets are well organized and easily accessible, they were well categorized and put into three different folders on Google Drive. 
 <div>
   <img src="./README assets/Drive folder structure.png" height="500" width="500">
-  <img src="./README assets/Media folder.png height="300" width="300"">
+  <img src="./README assets/Media folder.png" height="300" width="300">
   <p>Google Drive folder structure and assets under Media folder.</p>
 </div>
 
 ### Tools:
 To ensure smooth collaboration between product, engineering, and the localization team, we used Visual Studio Community & GitHub for code development, Google drive for general file management, Whatsapp for progress updates and debugging chat, and Zoom for online meetings.
 <div>
-  <img src="README assets/Git Repo.png height="500" width="500">
+  <img src="README assets/Git Repo.png">
   <p>GitHub repository for the Sorting Hat game.</p>
 </div>
 
