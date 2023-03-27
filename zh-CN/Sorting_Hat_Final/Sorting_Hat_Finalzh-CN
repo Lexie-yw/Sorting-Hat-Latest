@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="advA1" xml:space="preserve">
-    <value>Forbidden Forest</value>
+    <value>禁林</value>
   </data>
   <data name="advA2" xml:space="preserve">
-    <value>Library</value>
+    <value>图书馆</value>
   </data>
   <data name="advA3" xml:space="preserve">
-    <value>Kitchen</value>
+    <value>厨房</value>
   </data>
   <data name="advA4" xml:space="preserve">
-    <value>Room of Requirement</value>
+    <value>有求必应屋</value>
   </data>
   <data name="advQ" xml:space="preserve">
-    <value>Coming from MIIS, Hogwarts is a whole different school: you have free time on Sunday. Where do you go?</value>
+    <value>对来自MIIS的你来说，霍格沃茨是一所不同的学校：星期天你有空，你想去哪转转？</value>
   </data>
   <data name="animalA1" xml:space="preserve">
-    <value>Lion</value>
+    <value>狮子</value>
   </data>
   <data name="animalA2" xml:space="preserve">
-    <value>Eagle</value>
+    <value>鹰</value>
   </data>
   <data name="animalA3" xml:space="preserve">
     <value>Badger</value>
