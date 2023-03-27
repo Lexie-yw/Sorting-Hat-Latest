@@ -139,10 +139,10 @@
     <value>鹰</value>
   </data>
   <data name="animalA3" xml:space="preserve">
-    <value>Badger</value>
+    <value>獾</value>
   </data>
   <data name="animalA4" xml:space="preserve">
-    <value>Snake</value>
+    <value>蛇</value>
   </data>
   <data name="animalQ" xml:space="preserve">
     <value>What is your favorite animal companion?</value>
