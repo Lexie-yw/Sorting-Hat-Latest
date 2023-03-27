@@ -1,0 +1,3 @@
+files:
+  - source: /Sorting_Hat_Final/Sorting_Hat_Final/Form1.en-US.resx
+    translation: '%original_path%%locale%'
