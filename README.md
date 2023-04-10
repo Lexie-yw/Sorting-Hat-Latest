@@ -1,4 +1,4 @@
-# Sorting Hat
+# Sorting-Hat
 ## Project Overview	
 Sorting Hat is a quiz game that sorts the user into one of the four houses at Hogwarts. Time to explore the magic!
 
