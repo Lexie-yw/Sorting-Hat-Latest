@@ -7,13 +7,14 @@ The game currently supports 7 languages:  English, Simplified Chinese, French, G
 ## Team Members: 
 The Sorting Hat game was created and localized by three grad students (see below table) at MIIS. 
 
-|Ellie (Zhiqing) Wu|Lexie (Yiwen) Wang|Maud Grasmenil|
-|:--:|:--:|:--:|
-|Design, Localization|Engineering, Localization Project Management|I18n Engineering, Localization|
-|zhiqingw@middlebury.edu, zhiqingwu1998@gmail.com |yw2@middlebury.edu, lexieyww@gmail.com|mgrasmenil@middlebury.edu, maud.grasmenil@gmail.com|
+|Ellie (Zhiqing) Wu|Lexie (Yiwen) Wang|Maud Grasmenil||
+|:--:|:--:|:--:|:--:|
+|Design, Localization|Engineering, Localization Project Management|I18n Engineering, Localization||
+|zhiqingw@middlebury.edu, zhiqingwu1998@gmail.com |yw2@middlebury.edu, lexieyww@gmail.com|mgrasmenil@middlebury.edu, maud.grasmenil@gmail.com||
 
 <!---
 Note: This project is the final course project for Software Internationalization and Localization, taught by Professor David Mohr (dmohr@middlebury.edu).
+Test case:2 This is to test how if I change the code, would there be any changes reflected on GitLocalize
 -->
 [names listed follow the alphabetical order]
 
@@ -37,6 +38,7 @@ There will be 11 multiple-choice questions, testing users on their interests, ho
 Generally, a quiz only has one result, the correct rate (External Resource Referenced). However, in our quiz game, based on users’ answers, they will be assigned one result from four possible results. To implement this, the code logic is indicated below:
 
 Each question has four choices, and each choice is related to a house at Hogwarts. We assign each choice with a label (Gryffindor, Slytherin, Ravenclaw, and Hufflepuff). Then when we store the answer to an array, we do not store the actual string of choice, we store the label. After the user completes the quiz, we will calculate which label (house) in the array has the highest frequency, then we can assign the user to that house.
+<!---
 <div>
   <img src="./README assets/Code example.png">
   <p>Code example: storing the label into an array.</p>
@@ -45,7 +47,9 @@ Each question has four choices, and each choice is related to a house at Hogwart
   <img src="./README assets/Non-localized product1.png" width="450" 
      height="400">
   <p>The completed non-localized project.</p>
+  <img src="./README assets/Code example.png">
 </div>
+-->
 
 ## Project Management
 ### Work Log:
