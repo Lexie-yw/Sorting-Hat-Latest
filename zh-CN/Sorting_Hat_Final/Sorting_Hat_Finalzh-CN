@@ -145,7 +145,7 @@
     <value>蛇</value>
   </data>
   <data name="animalQ" xml:space="preserve">
-    <value>What is your favorite animal companion?</value>
+    <value>What is your most favored animal companion?</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Red</value>
