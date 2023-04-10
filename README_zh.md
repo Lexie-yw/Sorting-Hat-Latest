@@ -56,92 +56,104 @@ Note: This project is the final course project for Software Internationalization
 
 ### 工作日志：
 
-There are mainly four development stages: Ideation, Game Development [Source Code], Internationalization, and Localization. We created a product development plan [Progress Tracker] to follow and met five times either in person or online to complete the project.
+主要有四个开发阶段：构思、游戏开发[源代码]、国际化和本地化。我们创建了一个产品开发计划 [Progress Tracker] 以供遵循，并亲自或在线会面了五次以完成该项目。
 
-<div>   <img src="./README%20assets/Product%20development%20plan.png" height="500" width="500">    <img src="./README%20assets/worklog.png" height="300" width="300">   <p>Product development plan and work log.</p> </div>
+<div>
+<img src="./README%20assets/Product%20development%20plan.png" height="500" width="500"><img src="./README%20assets/worklog.png" height="300" width="300"><p>产品开发计划和工作日志。</p>
+</div>
 
-### Localization File Management:
+### 本地化文件管理：
 
-Good management of assets is a must for successful localization. Sorting Hat has three types of assets regarding localization: Media, Source Text, and Translations. To make sure those assets are well organized and easily accessible, they were well categorized and put into three different folders on Google Drive.
+良好的资产管理是成功本地化的必要条件。 Sorting Hat 具有三种与本地化相关的资产：媒体、源文本和翻译。为确保这些资产井井有条且易于访问，它们被妥善分类并放入 Google Drive 上的三个不同文件夹中。
 
-<div>   <img src="./README%20assets/Drive%20folder%20structure.png" height="500" width="500">   <img src="./README%20assets/Media%20folder.png" height="300" width="300">   <p>Google Drive folder structure and assets under Media folder.</p> </div>
+<div>
+<img src="./README%20assets/Drive%20folder%20structure.png" height="500" width="500"><img src="./README%20assets/Media%20folder.png" height="300" width="300"><p> Media 文件夹下的 Google Drive 文件夹结构和资产。</p>
+</div>
 
-### Tools:
+### 工具：
 
-To ensure smooth collaboration between product, engineering, and the localization team, we used Visual Studio Community &amp; GitHub for code development, Google drive for general file management, Whatsapp for progress updates and debugging chat, and Zoom for online meetings.
+为确保产品、工程和本地化团队之间的顺畅协作，我们使用 Visual Studio Community 和 GitHub 进行代码开发，使用 Google Drive 进行一般文件管理，使用 Whatsapp 进行进度更新和调试聊天，并使用 Zoom 进行在线会议。
 
-<div>   <img src="README%20assets/Git%20Repo.png">   <p>GitHub repository for the Sorting Hat game.</p> </div>
+<div>
+<img src="README%20assets/Git%20Repo.png"><p>分院帽游戏的 GitHub 存储库。</p>
+</div>
 
-## Internationalization
+## 国际化
 
-Localization starts at the earliest stage of a game’s development. In that regard, the .NET framework made app internationalization rather easy. Once the windows form was properly internationalized, we only had to add text in the different resource files.
+本地化始于游戏开发的最早阶段。在这方面，.NET 框架使应用国际化变得相当容易。 Windows 窗体正确国际化后，我们只需在不同的资源文件中添加文本。
 
-### Engineering
+### 工程
 
-1. We created a language switcher: with a list of the different languages. To the Dropdown list, a function is assigned that first gets the cultural info of the selected locale (Switch/case), applies it (CurrentCulture &amp; CurrentUICulture), then clears and reinitializes the form. The CultureInfo object allowed us to adapt some cultural elements to the target locale, such as the date format used in the final text.
+1. 我们创建了一个语言切换器：带有不同语言的列表。对于下拉列表，分配了一个函数，该函数首先获取所选语言环境的文化信息（切换/案例），应用它（CurrentCulture 和 CurrentUICulture），然后清除并重新初始化表单。 CultureInfo 对象允许我们调整一些文化元素以适应目标语言环境，例如最终文本中使用的日期格式。
 
-<div>   <img src="README%20assets/Language%20Switcher.png">   <p>Code example: language switcher.</p> </div>
+<div>
+<img src="README%20assets/Language%20Switcher.png"><p>代码示例：语言切换器。</p>
+</div>
 
-1. Internationalization can be done in the Form properties (Designer.cs, “Localizable”: True). Switching from default to the different locales automatically creates new resource files for each locale, in which we can put the variables and their corresponding strings.
+1. 国际化可以在表单属性中完成（Designer.cs，“Localizable”：True）。从默认切换到不同的语言环境会自动为每个语言环境创建新的资源文件，我们可以在其中放置变量及其对应的字符串。
 
-2. String externalization was then implemented in the code by creating variables instead of strings (getting attributed strings in resource files) and avoiding concatenation.
+2. 然后通过创建变量而不是字符串（在资源文件中获取属性字符串）并避免连接，在代码中实现了字符串外部化。
 
-<div>   <img src="README%20assets/Externalized%20Strings.png">   <p>Externalized strings in the en-US resource file.</p> </div>
+<div>
+<img src="README%20assets/Externalized%20Strings.png"><p>en-US 资源文件中的外部化字符串。</p>
+</div>
 
-### Design internationalization
+### 设计国际化
 
-Other elements had to be taken into consideration in the internationalization process. Text size: The size of the text had to be adapted for each locale to ensure its readability (Chinese characters smaller, for instance). Box size: Similarly, once strings were translated, we realized that some questions were too long in certain locales, overflowing the textbox (the extra text would not display). We therefore adapted the size of the text boxes when needed. In the future, it would be better to make the boxes automatically resizable so they can adapt to the length of their content. Layout: some layout issues occurred for some locales: the position of the language label changes in the French (France). Correcting it would reinitialize our resource files, therefore, due to time constraints, it hasn’t been done yet. This showed us that design had to be finalized before adding the strings in the resource files. Another solution we would like to explore is to create resource files for externalized strings that would be independent from the Form.cs file. Language: Encoding: we wanted to ensure that all of the languages would be properly encoded and that others could be indeed later on. We, therefore, used the Unicode standard. Font: we had to ensure that they would work for all languages (esp. Chinese and Japanese characters). An idea was to use different fonts for Latin script and Chinese and Japanese script.
+在国际化过程中还必须考虑其他因素。文本大小：文本的大小必须适应每个区域设置以确保其可读性（例如，较小的汉字）。框大小：同样，一旦字符串被翻译，我们意识到在某些区域设置中有些问题太长，溢出文本框（多余的文本不会显示）。因此，我们在需要时调整了文本框的大小。将来，最好让框自动调整大小，以便它们可以适应内容的长度。布局：某些区域设置出现了一些布局问题：语言标签的位置在法语（法国）中发生了变化。纠正它会重新初始化我们的资源文件，因此，由于时间限制，它还没有完成。这向我们表明，在将字符串添加到资源文件之前必须完成设计。我们想要探索的另一个解决方案是为独立于 Form.cs 文件的外部化字符串创建资源文件。语言：编码：我们希望确保所有语言都被正确编码，而其他语言确实可以在以后进行编码。因此，我们使用了 Unicode 标准。字体：我们必须确保它们适用于所有语言（尤其是中文和日文字符）。一个想法是为拉丁文字、中文和日语文字使用不同的字体。
 
-## Design
+## 设计
 
-### General UI design
+### 通用界面设计
 
-Following the theme of the sorting hat, the basic concept of our UI design mirrors the overall aesthetics of the Harry Potter movies, as well as other spinoffs of the franchise. More specifically, we aimed to replicate the sorting hat quiz offered on the Pottermore website, which evaluates the users’ answers in a set of short multiple-choice questions relating to the Harry Potter series.
+遵循分院帽的主题，我们 UI 设计的基本概念反映了哈利波特电影的整体美学，以及该系列的其他衍生产品。更具体地说，我们旨在复制 Pottermore 网站上提供的分院帽测验，该测验评估用户在一组与哈利波特系列相关的多项选择题中的回答。
 
-In an attempt to recreate the medieval gothic architectural style of the setting of the original story, Hogwarts School of Witchcraft and Wizardry, we chose a dark color scheme for the UI, paired with a crinkled, sepia-colored paper texture in the background.
+为了重现原始故事霍格沃茨魔法学校的中世纪哥特式建筑风格，我们为 UI 选择了深色配色方案，并在背景中搭配皱纹的棕褐色纸张纹理。
 
-One challenge in the design process is to choose the proper colors for the answer choice buttons. As mentioned previously, the four houses each possess an individual representative color, red, yellow, blue, and green, respectively. To avoid using the same color as any one of the houses, we built the buttons with black backgrounds and orange text, solving the problem while retaining the medieval style and increasing legibility.
+设计过程中的一个挑战是为答案选择按钮选择合适的颜色。如前所述，这四所房子各有自己的代表色，分别是红色、黄色、蓝色和绿色。为避免使用与任何一栋房屋相同的颜色，我们将按钮构建为黑色背景和橙色文本，在解决问题的同时保留了中世纪风格并提高了易读性。
 
-### Font Selection
+### 字体选择
 
-Building upon the previous section, another aspect in the general UI design process of this game involves finding a font that further highlights the style. In this case, the font for the Latin-script alphabet that we chose after careful consideration is Xéfora, which is modeled after the font style of Harry Potter movie posters. As mentioned earlier, we adopted the Unicode standard to include the characters needed for the languages that we localized into. So, another criterion for font selection for us was to choose one that contains all characters needed, along with essential accent marks for Spanish, French, and German. On the other hand, as for the two CCJK, or C(hinese) J(apanese) languages we chose, we encountered similar problems when selecting fonts. Though one font named Oriental was shortlisted for Japanese, it only supports one out of three Japanese writing systems. Therefore, we decided to leave the Chinese and Japanese versions of our game in the default font.
+在上一节的基础上，该游戏的一般 UI 设计过程的另一个方面涉及找到一种进一步突出风格的字体。在这种情况下，我们经过深思熟虑后选择的拉丁字母表字体是仿照哈利波特电影海报字体风格的Xéfora。如前所述，我们采用了 Unicode 标准来包含我们本地化到的语言所需的字符。因此，我们选择字体的另一个标准是选择一个包含所有需要的字符，以及西班牙语、法语和德语的基本重音符号的字体。另一方面，对于我们选择的两种CCJK，或者C(hinese) J(apanese)语言，我们在选择字体时遇到了类似的问题。虽然一种名为 Oriental 的字体入围了日语，但它只支持三种日语书写系统中的一种。因此，我们决定将我们游戏的中文和日文版本保留为默认字体。
 
-<div>   <img src="README%20assets/German%20UI.png" width="500" height="350">   <img src="README%20assets/Spanish%20UI.png" width="500" height="350">   <p>The Sorting Hat game UI localized into German and Spanish.</p> </div>
+<div>
+<img src="README%20assets/German%20UI.png" width="500" height="350"><img src="README%20assets/Spanish%20UI.png" width="500" height="350"><p>分院帽游戏 UI 已本地化为德语和西班牙语。</p>
+</div>
 
-Circling back to the chosen font, although it works for all of the non-CCJK versions of our game, the font is yet to be embedded, meaning that it only shows when the operating system has Xéfora installed. A demo of the game with the stylized font is shown below.
+回到所选字体，虽然它适用于我们游戏的所有非 CCJK 版本，但字体尚未嵌入，这意味着它仅在操作系统安装了 Xéfora 时显示。下面显示了带有程式化字体的游戏演示。
 
-Another problem, and perhaps the most critical one, that we encountered during font implementation was the limitation of Visual Studio with font types. First of all, Visual Studio only supports TrueType fonts (TTF), so OpenType fonts are to be avoided for similar projects in the future.
+我们在字体实现过程中遇到的另一个问题，也许是最关键的问题是 Visual Studio 对字体类型的限制。首先，Visual Studio 只支持 TrueType 字体（TTF），所以以后类似的项目要避免使用 OpenType 字体。
 
-## Localization
+## 本土化
 
-For localization, the challenge that was apparent throughout the process is foreignization versus domestication.
+对于本地化，在整个过程中显而易见的挑战是异化与归化。
 
-The goal of our final deliverable is to, again, emulate the style of the original Pottermore quiz. Therefore, many concepts unique to the UK were introduced in the questions. One example of such is a question regarding teatime snacks. It is common knowledge that people from the UK often enjoy tea with a variety of sweet and savory snacks at certain times of the day. Still, this practice is not common in countries around the world, even among European countries. As a team of native French and Chinese speakers, we pointed out this problem and proposed two potential solutions: adding domestication to this question in the localized versions of our app or keeping the British spirit and translating directly.
+我们最终交付的目标再次是模仿原始 Pottermore 测验的风格。因此，题目中引入了很多英国独有的概念。其中一个例子是关于茶点小吃的问题。众所周知，英国人经常在一天中的特定时间享用茶和各种甜味和咸味小吃。尽管如此，这种做法在世界各国并不普遍，即使在欧洲国家也是如此。作为母语为法语和中文的团队，我们指出了这个问题并提出了两个可能的解决方案：在我们应用程序的本地化版本中对该问题添加本地化，或者保留英国精神并直接翻译。
 
-In the end, we agreed that as the background of the game remains Hogwarts, it is best that we maintain consistency across all versions and retain the British elements in the game.
+最后我们一致认为，由于游戏的背景仍然是霍格沃茨，所以最好保持所有版本的一致性，保留游戏中的英伦元素。
 
-Expanding on the discussion above regarding the linguistic part of localization for our game, one tool we found useful to better capture the spirit of the original theme is the Harry Potter Fandom databases. Official translations are kept in glossaries by enthusiastic fans and writers, helping us achieve better consistency and accuracy in portrayal.
+扩展上面关于我们游戏本地化的语言部分的讨论，我们发现一个有助于更好地捕捉原始主题精神的工具是哈利波特粉丝数据库。官方翻译由热情的粉丝和作家保存在词汇表中，帮助我们在描述中实现更好的一致性和准确性。
 
-Nevertheless, though consistency is critical in terms of tone and voice, the sentence structures may need to vary from language to language in many cases. One observation that we had after localizing the game into seven different languages is that Chinese and Japanese quiz or question design in general have unique attributes not found in quizzes for other languages. When researching and brainstorming, we collected both official and unofficial Harry Potter sorting hat questions. There were clearly more questions that read “Please choose one of the following:” in Chinese and Japanese. Since our project is relatively small in scale, and question structures did not impact the nuance of the questions greatly, we chose to keep all questions structures consistent. But, in future localization projects that feature larger numbers of questions, this problem will be worth careful consideration.
+尽管如此，尽管语气和语气的一致性至关重要，但在许多情况下，句子结构可能需要因语言而异。在将游戏本地化为七种不同语言后，我们的一项观察是，中文和日文测验或问题设计通常具有其他语言测验所没有的独特属性。在研究和集思广益时，我们收集了官方和非官方的哈利波特分类帽问题。显然有更多的问题用中文和日文写着“请选择以下一项：”。由于我们的项目规模相对较小，问题结构对问题的细微差别影响不大，因此我们选择保持所有问题结构一致。但是，在未来有更多问题的本地化项目中，这个问题将值得仔细考虑。
 
-## Challenges/lessons learned
+## 挑战/经验教训
 
-C# is a great language for internationalization! Resource files should be completed AFTER the form properties are finalized (or you will have to start over). It proved once again that it is always good to have a backup, which was the Excel file in which we translated our externalized strings (Drive folder, access restricted to team members). It would be quick to add other languages in the future. However, one element that may have to be reworked in our code is the function associated with the language selector: for now, it relies on the order of the languages in the list. In the future, we could rewrite the code so that the iso code used for Current(UI)Culture is found from the native name of the language selected. Aesthetics do matter, but so do format standards and glyph data! When selecting fonts for text elements in C# programs in Visual Studio, rather than checking the visual effects of the font, verify that the format standard is compatible with VS, and the number, as well as type of glyphs, satisfy the requirements of the languages that you will be implementing.
+C# 是一种很棒的国际化语言！资源文件应在表单属性完成后完成（否则您将不得不重新开始）。再次证明备份总是好的，备份是我们在其中翻译外部化字符串的 Excel 文件（Drive 文件夹，仅限团队成员访问）。将来添加其他语言会很快。然而，我们的代码中可能需要重新编写的一个元素是与语言选择器关联的函数：目前，它依赖于列表中语言的顺序。将来，我们可以重写代码，以便从所选语言的本机名称中找到用于 Current(UI)Culture 的 iso 代码。美学很重要，但格式标准和字形数据也很重要！在 Visual Studio 中为 C# 程序中的文本元素选择字体时，不是检查字体的视觉效果，而是验证格式标准是否与 VS 兼容，以及字形的数量和类型是否满足语言的要求你将要实施的。
 
-## Potential Improvement Areas
+## 潜在的改进领域
 
-### Music background
+### 音乐背景
 
-To bring Harry Potter’s atmosphere to our quiz, we thought of adding its music theme playing in the background. Game design was not the focus of the assignment, but figuring out how to implement this idea helped us explore more of C# Winform features. One first way to do it was to create two buttons (Play, Stop). In the code, we could use the built-in Media system and create a Soundplayer variable, then link it to the audio file (SoundLocation) and use Play and Stop functions as click events. Our research then led to the discovery of an even simpler way to play music in a Winform: Windows Media Player is a built-in component of the .NET framework. The item can be added in the toolbox, then embedded in the form and programmed in only a few lines of code. The advantage is that the users could not only play and stop the music, but also pause/resume and shift its volume. This works for videos as well. Code to use WMP in WinForm
+为了将哈利波特的氛围带入我们的测验，我们考虑在背景中添加其音乐主题。游戏设计不是任务的重点，但弄清楚如何实现这个想法有助于我们探索更多 C# Winform 功能。第一种方法是创建两个按钮（播放、停止）。在代码中，我们可以使用内置的媒体系统并创建一个 Soundplayer 变量，然后将其链接到音频文件 (SoundLocation) 并将播放和停止函数用作点击事件。我们的研究随后发现了一种在 Winform 中播放音乐的更简单的方法：Windows Media Player 是 .NET 框架的内置组件。该项目可以添加到工具箱中，然后嵌入到表单中并仅用几行代码进行编程。优点是用户不仅可以播放和停止音乐，还可以暂停/恢复和改变音量。这也适用于视频。在 WinForm 中使用 WMP 的代码
 
-However, the player’s design was not aesthetically pleasing for our game. In any case, while both solutions worked in a separate form, they did not work in our app, probably due to an error in the way we indicated how to get the audio resource file. Moreover, playing this file may have been illegal, as it is strongly protected by copyright. From an internationalization point of view, in other contexts, we may consider adapting the music content to the target audience. It would therefore be interesting to think about how to externalize the pathfinder so that the main code would not change but different files would be fetched depending on the locale.
+然而，对于我们的游戏来说，玩家的设计并不美观。在任何情况下，虽然这两种解决方案都以单独的形式工作，但它们在我们的应用程序中不起作用，这可能是由于我们指示如何获取音频资源文件的方式存在错误。此外，播放此文件可能是非法的，因为它受到版权的严格保护。从国际化的角度来看，在其他情况下，我们可能会考虑将音乐内容适应目标受众。因此，考虑如何将探路者外部化以便主要代码不会更改但会根据语言环境获取不同的文件会很有趣。
 
-### Start Menu and Ending Screen
+### 开始菜单和结束画面
 
-Due to time constraints, we have yet to implement a start menu for our game, which we conceptualize to greet the players and set the overall mood for the game.
+由于时间限制，我们还没有为我们的游戏实现开始菜单，我们将其概念化以迎接玩家并为游戏设定整体氛围。
 
-In addition, we also plan on implementing an ending screen with visual elements pertaining to the house that the player is assigned, so as to enrich UI and enhance player engagement.
+此外，我们还计划实现一个包含与分配给玩家的房屋相关的视觉元素的结束屏幕，以丰富 UI 并增强玩家参与度。
 
-### Code Optimization
+### 代码优化
 
-Currently, our game assigns players with houses based on comparing the amount of answers accumulated relating to each house. If possible, we would like to add more randomization into the algorithm, to improve the unpredictability and entertainment of the game.
+目前，我们的游戏根据比较与每个房子相关的累积答案数量来为玩家分配房子。如果可能的话，我们希望在算法中加入更多的随机性，以提高游戏的不可预测性和娱乐性。
