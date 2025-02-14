@@ -2,7 +2,7 @@
 ## Project Overview	
 Sorting Hat is a quiz game that sorts the user into one of the four houses at Hogwarts. Time to explore the magic!
 
-The game currently supports 7 languages:  English, Simplified Chinese, French, German, Spanish, Japanese, and Italian.
+The quiz game currently supports 7 languages:  English, Simplified Chinese, French, German, Spanish, Japanese, and Italian.
 
 ## Team Members: 
 The Sorting Hat game was created and localized by three grad students (see below table) at MIIS. 
